@@ -35,7 +35,7 @@
 \date{\today}
 
 \begin{abstract}
-We investigate the linearized form of metric $f(R)$-gravity, assuming that $f(R)$ is analytic about $R = 0$ so it may be expanded as $f(R) = R + a_2R^2/2 + \ldots$. We show how gravitational radiation is modified in $f(R)$-gravity, admitting an extra mode of oscillation, that of the Ricci scalar, in addition to two transverse polarizations which are similar to their general relativistic counterparts. The energy-momentum pseudotensor for the gravitational radiation is derived. We go on to derive weak-field metrics for a point source, a slowly rotating point source and a uniform density sphere, recovering results known for quadratic theories of gravities. The metrics for the first two sources are distinct from the appropriate limits of Schwarzschild and Kerr demonstrating that black holes are different in $f(R)$-gravity. The final metric shows that Birkhoff's theorem no longer applies in $f(R)$-gravity. Using these weak-field metrics we investigate various tests that could constrain $f(R)$. We find that time delay or light deflection experiements cannot distinguish $f(R)$-gravity from general relativity as the former has an effective post-Newtonian parameter $\gamma = 1$. Considering planetrary precession, we find that the precession rate is enhanced relative to general relativity, and from the orbit of Mercury we derive the bound $|a_2| \lesssim 1.2 \times 10^{18}\units{m^2}$. E\"ot-Wash experiements provide a much stricter bound $|a_2| \lesssim 2 \times 10^{-9}\units{m^2}$. Although the former bound is much weaker, it is still of interest in the case that the effective form of $f(R)$ is modified in different regions, perhaps through the chameleon mechanism which reduces the effective value of $|a_2|$ in the presense of matter. If the laboratory bound is universal we conclude that the propagating Ricci scalr mode will not be excited by astrophysical sources as it has a cutoff frequency of $\gtrsim 4 \times 10^{12}\units{s^{-1}}$.
+We investigate the linearized form of metric $f(R)$-gravity, assuming that $f(R)$ is analytic about $R = 0$ so it may be expanded as $f(R) = R + a_2R^2/2 + \ldots$. We show how gravitational radiation is modified in $f(R)$-gravity, admitting an extra mode of oscillation, that of the Ricci scalar, in addition to two transverse polarizations which are similar to their general relativistic counterparts. The energy-momentum pseudotensor for the gravitational radiation is derived. We go on to derive weak-field metrics for a point source, a slowly rotating point source and a uniform density sphere, recovering results known for quadratic theories of gravities. The metrics for the first two sources are distinct from the appropriate limits of Schwarzschild and Kerr demonstrating that black holes are different in $f(R)$-gravity. The final metric shows that Birkhoff's theorem no longer applies in $f(R)$-gravity. Using these weak-field metrics we investigate various tests that could constrain $f(R)$. We find that time delay or light deflection experiments cannot distinguish $f(R)$-gravity from general relativity as the former has an effective post-Newtonian parameter $\gamma = 1$. Considering planetary precession, we find that the precession rate is enhanced relative to general relativity, and from the orbit of Mercury we derive the bound $|a_2| \lesssim 1.2 \times 10^{18}\units{m^2}$. E\"ot-Wash experiments provide a much stricter bound $|a_2| \lesssim 2 \times 10^{-9}\units{m^2}$. Although the former bound is much weaker, it is still of interest in the case that the effective form of $f(R)$ is modified in different regions, perhaps through the chameleon mechanism which reduces the effective value of $|a_2|$ in the presence of matter. If the laboratory bound is universal we conclude that the propagating Ricci scalar mode will not be excited by astrophysical sources as it has a cutoff frequency of $\gtrsim 4 \times 10^{12}\units{s^{-1}}$.
 \end{abstract}
 
 \pacs{}
@@ -78,8 +78,8 @@ Finally, there is a third version of $f(R)$-gravity: metric-affine $f(R)$-gravit
 
 We will restrict our attention to metric $f(R)$-gravity. This is preferred as the Palatini formalism has undesirable properties: static spherically symmetric objects described by a polytropic equation of state are subject to a curvature singularity~\cite{Barausse2008b, Barausse2008a}. Varying the action with respect to the metric $g^{\mu\nu}$ produces
 \begin{eqnarray}
-\delta S & = & \recip{16\pi G}\intd{}{}{\left\{f'(R)\sqrt{-g}\left[R_{\mu\nu} - \nabla_\mu\nabla_\nu\ + g_{\mu\nu}\Box\right] \hphantom{\frac{0}{0}} \right. \nonumber \\*
- & & - \left. f(R)\recip{2}\sqrt{-g}g_{\mu\nu}\right\}\delta g^{\mu\nu}}{^4x},
+\delta S & = & \recip{16\pi G}\int\left\{f'(R)\sqrt{-g}\left[R_{\mu\nu} - \nabla_\mu\nabla_\nu\ + g_{\mu\nu}\Box\right] \hphantom{\frac{0}{0}} \right. \nonumber \\*
+ & & - \left. f(R)\recip{2}\sqrt{-g}g_{\mu\nu}\right\}\delta g^{\mu\nu}\,\dd^4x,
 \end{eqnarray}
 where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here requires certain assumptions regarding surface terms. In the case of the Einstein-Hilbert action these gather into a total derivative. It is possible to subtract this from the action to obtain a well-defined variational quantity~\cite{York1972, Gibbons1977}. This is not the case for general $f(R)$~\cite{Madsen1989}. However, since the action includes higher-order derivatives of the metric we are at liberty to fix more degrees of freedom at the boundary, in so doing eliminating the importance of the surface terms~\cite{Dyer2009a, Sotiriou2010}. There is no well described prescription for this so we proceed directly to the field equations.
 
@@ -242,13 +242,13 @@ to first order this is
 \end{equation}
 Subject to this, from \eqnref{Ricci}, the Ricci tensor is
 \begin{eqnarray}
-{R^{(1)}}_{\mu\nu} & = & -\frac{1}{2}\left\{2b a_2 \partial_\mu\partial_\nu R^{(1)} + \Box\left(\overline{h}_{\mu\nu} -\frac{\overline{h}}{2}\eta_{\mu\nu}\right) \right. \nonumber \\**
+{R^{(1)}}_{\mu\nu} & = & -\frac{1}{2}\left\{2b a_2 \partial_\mu\partial_\nu R^{(1)} + \Box\left(\overline{h}_{\mu\nu} -\frac{\overline{h}}{2}\eta_{\mu\nu}\right) \right. \nonumber \\*
  & &  +\left . \frac{b}{3}(R^{(1)} + \mathcal{G}^{(1)})\eta_{\mu\nu}\right\}.
 \end{eqnarray}
 Using this with \eqnref{Box_R} in \eqnref{Field} gives
 \begin{eqnarray}
-{\mathcal{G}^{(1)}}_{\mu\nu} & = & \frac{2 - b}{6}\mathcal{G}^{(1)}\eta_{\mu\nu} -\frac{1}{2}\Box\left(\overline{h}_{\mu\nu} \nonumber \\*
- & & - {} \frac{\overline{h}}{2}\right) - (b + 1)\left(a_2\partial_\mu\partial_\nu R^{(1)} + \reip{6}R^{(1)}}\eta_{\mu\nu}\right).
+{\mathcal{G}^{(1)}}_{\mu\nu} & = & \frac{2 - b}{6}\mathcal{G}^{(1)}\eta_{\mu\nu} -\frac{1}{2}\Box\left(\overline{h}_{\mu\nu} - \frac{\overline{h}}{2}\right) \nonumber \\*
+ & & - (b + 1)\left(a_2\partial_\mu\partial_\nu R^{(1)} + \recip{6}R^{(1)}\eta_{\mu\nu}\right).
 \label{eq:b_Field}
 \end{eqnarray}
 Picking $b = -1$ the final term vanishes, thus we will set~\cite{Corda2007, Capozziello2008}
@@ -328,7 +328,7 @@ would ensure both conditions \eqnref{Lorenz} and \eqnref{Box_hmunu} are satisfie
 \end{equation}
 We may therefore impose four further constraints (one for each $\widehat{\xi}_\mu$) upon $\widehat{h}_{\mu\nu}$. We take these to be
 \begin{equation}
-\widehat{h}_{0\nu} = 0, \quad \widehat{h} = 0.
+\widehat{h}_{0\nu} = 0, \qquad \widehat{h} = 0.
 \end{equation}
 This might appear to be five constraints, however we have already imposed \eqnref{Transverse}, and so setting $\widehat{h}_{00} = 0$ automatically implies $\widehat{h}_{03} = 0$. In this gauge we have
 \begin{eqnarray}
@@ -383,7 +383,7 @@ where $j_{\mu\nu}$ is $\order{\varepsilon^2}$ to ensure that ${{R^{(\text{B})}}^
 We will consider terms only to $\order{\varepsilon^2}$. We identify ${{\Gamma^{(1)}}^\rho}_{\mu\nu}$ from \eqnref{Lin_Gamma} to the accuracy of our analysis. There is one small subtlety: whether we use the background metric $\gamma^{\mu\nu}$ or $\eta^{\mu\nu}$ to raise indices of $\partial_\mu$ and $h_{\mu\nu}$. Fortunately, to the accuracy considered here, it does not make a difference; however, we will consider the indices to be changed with $\gamma^{\mu\nu}$. This is more appropriate for considering the effect of curvature on gravitational radiation. We will not distinguish between $\partial_\mu$ and ${\nabla^{(\text{B})}}_\mu$, the covariant derivative for the background metric: to the order of accuracy considered here covariant derivatives would commute and ${\nabla^{(\text{B})}}_\mu$ behaves just like $\partial_\mu$. The connection coefficient has
 \begin{eqnarray}
 {{\Gamma^{(1)}}^\rho}_{\mu\nu} & = & \frac{1}{2}\gamma^{\rho\lambda}\left[\partial_\mu \left(\overline{h}_{\lambda\nu} - a_2 R^{(1)}\gamma_{\lambda\nu}\right) + \partial_\nu \left(\overline{h}_{\lambda\mu} \right. \right. \nonumber \\* 
-\left. - \left. a_2 R^{(1)}\gamma_{\lambda\mu}\right) \partial_\lambda \left(\overline{h}_{\mu\nu} - a_2 R^{(1)}\gamma_{\mu\nu}\right)\right],
+ & & \left. - \left. a_2 R^{(1)}\gamma_{\lambda\mu}\right) \partial_\lambda \left(\overline{h}_{\mu\nu} - a_2 R^{(1)}\gamma_{\mu\nu}\right)\right],
 \end{eqnarray}
 and
 \begin{eqnarray}
@@ -526,7 +526,7 @@ with a mass distribution of a stationary point source
 \end{equation}
 This source does not produce any radiation. As in GR
 \begin{equation}
-\overline{h}_{00} = -\frac{4GM}{r}; \quad \overline{h}_{0i} = \overline{h}_{ij} = 0.
+\overline{h}_{00} = -\frac{4GM}{r}; \qquad \overline{h}_{0i} = \overline{h}_{ij} = 0.
 \end{equation}
 Solving for the Ricci scalar term gives
 \begin{equation}
@@ -535,8 +535,8 @@ R^{(1)} = -2 G \Upsilon^2 M \frac{\exp(- \Upsilon r)}{r}.
 Combining these in \eqnref{h_metric} yields a metric perturbation with non-zero elements 
 \begin{equation}
 \begin{split}
-h_{00} & = & -\frac{2GM}{r}\left[1 + \frac{\exp(- \Upsilon r)}{3}\right]; \\*
-h_{ij} & = & -\frac{2GM}{r}\left[1 - \frac{\exp(- \Upsilon r)}{3}\right]\delta_{ij}.
+h_{00} & = {} -\frac{2GM}{r}\left[1 + \frac{\exp(- \Upsilon r)}{3}\right]; \\*
+h_{ij} & = {} -\frac{2GM}{r}\left[1 - \frac{\exp(- \Upsilon r)}{3}\right]\delta_{ij}.
 \end{split}
 \end{equation}
 Thus, to first order, the metric for a point mass in $f(R)$-gravity is~\cite{Capozziello2009a, Naf2010}
@@ -565,7 +565,7 @@ Solving the full field equations to find the exact BH metric in $f(R)$ is diffic
 
 In $f(R)$-gravity Birkhoff's theorem no longer applies: the metric about a spherically symmetric mass does not correspond to the equivalent of the Schwarzschild solution, since the distribution of matter influences how the Ricci scalar decays, and consequently Gauss' theorem no longer applies. Repeating our analysis for a (non-rotating) sphere of uniform density and radius $L$
 \begin{equation}
-\overline{h}_{00} = -\frac{4GM}{r}; \quad \overline{h}_{0i} = \overline{h}_{ij} = 0,
+\overline{h}_{00} = -\frac{4GM}{r}; \qquad \overline{h}_{0i} = \overline{h}_{ij} = 0,
 \end{equation}
 as in GR, and for the point mass, but
 \begin{eqnarray}
@@ -575,14 +575,14 @@ R^{(1)} & = & -6 G M \frac{\exp(- \Upsilon r)}{r}\left[\frac{\Upsilon L\cosh(\Up
 defining $\Xi(\Upsilon L)$ in the last line.\footnote{$\Xi(0) = 1/3$ is the minimum of $\Xi(\Upsilon L)$.} The metric perturbation thus has non-zero first order elements~\cite{Stelle1978, Capozziello2009b}
 \begin{equation}
 \begin{split}
-h_{00} & = & -2 G M \left[1 + \exp(- \Upsilon r)\Xi(\Upsilon L)\right]; \\*
-h_{ij} & = & -2 G M \left[1 - \exp(- \Upsilon r)\Xi(\Upsilon L)\right]\delta_{ij}.
+h_{00} & = {} -2 G M \left[1 + \exp(- \Upsilon r)\Xi(\Upsilon L)\right]; \\*
+h_{ij} & = {} -2 G M \left[1 - \exp(- \Upsilon r)\Xi(\Upsilon L)\right]\delta_{ij}.
 \label{eq:Uniform}
 \end{split}
 \end{equation}
 where we have assumed that $r > L$ at all stages.\footnote{Inside the source $R^{(1)} = -{6 G M}\left[1 - (\Upsilon L + 1)\exp(-\Upsilon L)\sinh(\Upsilon r)/\Upsilon r\right]/{L^3}$.}
 
-In the next section we will use these weak-field metrics with results from classic experimental tests of gravity to place constrints on $f(R)$.
+In the next section we will use these weak-field metrics with results from classic experimental tests of gravity to place constraints on $f(R)$.
 
 \section{Solar System \& Laboratory Tests\label{sec:Tests}}
 
@@ -590,7 +590,7 @@ In the next section we will use these weak-field metrics with results from class
 
 The parameterized post-Newtonian (PPN) formalism was created to quantify deviations from GR~\cite{Will1993, Will2006}. It is ideal for solar system tests. The only parameter we need to consider here is $\gamma$ which measures the space-curvature produced by unit rest mass. The PPN metric has components
 \begin{equation}
-g_{00} = 1 + 2U; \quad g_{ij} = -(1 + 2\gamma U)\delta_{ij},
+g_{00} = 1 + 2U; \qquad g_{ij} = -(1 + 2\gamma U)\delta_{ij},
 \end{equation}
 where for a point mass
 \begin{equation}
@@ -607,7 +607,7 @@ As $\Upsilon \rightarrow \infty$, the GR value of $\gamma = 1$ is recovered. How
 To post-Newtonian order, this has non-zero connection coefficients
 \begin{equation}
 \begin{split}
-{\Gamma^0}_{0i} = \frac{P'x^i}{2r}; \quad {\Gamma^i}_{00} = \frac{P'x^i}{2r}; \\*
+{\Gamma^0}_{0i} = \frac{P'x^i}{2r}; \qquad {\Gamma^i}_{00} = \frac{P'x^i}{2r}; \quad\\*
 {\Gamma^i}_{jk} = \frac{Q'(\delta_{ij}x^k + \delta_{ik}x^j-\delta_{jk}x^i)}{2r}.
 \end{split}
 \end{equation}
@@ -638,7 +638,7 @@ To post-Newtonian accuracy these become
 \end{eqnarray}
 The Newtonian, or zeroth order, solution of these is straight-line propagation at constant speed~\cite{Will1993}
 \begin{equation}
-x^i\sub{N} = n^it; \quad |\boldsymbol{n}| = 1.
+x^i\sub{N} = n^it; \qquad |\boldsymbol{n}| = 1.
 \end{equation}
 The post-Newtonian trajectory can be written as
 \begin{equation}
@@ -656,12 +656,12 @@ P(r) - Q(r) & = & -\frac{4GM}{r} \nonumber \\*
 \end{eqnarray}
 This is identical to in GR. The result holds not just for a point mass, but for any stationary and static solution in $f(R)$. In these cases, using \eqnref{h_metric}
 \begin{eqnarray}
-P(r) - Q(r) & = & h_{00} + h_{ii} \quad \text{(no sum)}\nonumber \\*
+P(r) - Q(r) & = & h_{00} + h_{ii} \qquad \text{(no sum)}\nonumber \\*
  & = & \overline{h}_{00} + \overline{h}_{ii},
 \end{eqnarray}
 and since $\overline{h}_{\mu\nu}$ obeys \eqnref{Box_hmunu} exactly as in GR, there is no difference. We conclude that an appropriate definition for the post-Newtonian parameter is
 \begin{equation}
-\gamma = \frac{g_{00} + g_{ii}}{2U} - 1 \quad \text{(no sum)}.
+\gamma = \frac{g_{00} + g_{ii}}{2U} - 1 \qquad \text{(no sum)}.
 \end{equation}
 Using this, our $f(R)$ solutions have $\gamma = 1$. This agrees with the results found by Clifton~\cite{Clifton2008}.\footnote{Clifton~\cite{Clifton2008} also gives PPN parameters $\beta =1$, $\zeta_1 = 0$, $\zeta_3 = 0$ and $\zeta_4 = 0$, all identical to GR.} Consequently, it is indistinguishable form GR in this respect and is entirely consistent with the current observational value of $\gamma = 1 + (2.1 \pm 2.3) \times 10^{-5}$~\cite{Will2006, Bertotti2003}.
 
@@ -759,7 +759,7 @@ If we compare this with an elliptic Keplerian orbit of small eccentricity $e$
 \end{eqnarray}
 to first order in $e$, where $a$ is the semimajor axis and $\omega_0$ is the orbital frequency; we can identify the perturbed orbit with an elliptical orbit where~\cite{Kerner2001a}
 \begin{equation}
-\overline{r} = a; \quad \delta_0 = -ea.
+\overline{r} = a; \qquad \delta_0 = -ea.
 \end{equation}
 The eccentricity is the small parameter $|e| = |\delta_0/\overline{r}| \ll 1$. To this accuracy one cannot distinguish between $a$ and the semilatus rectum $p = a(1 - e^2)$.
 
@@ -797,7 +797,7 @@ We can apply this to the classic test of planetary precession in the solar syste
 \begin{ruledtabular}
 \begin{tabular}{l D{.}{.}{2.8} D{.}{.}{3.8} c D{.}{.}{1.8}}
  & \multicolumn{1}{c}{Semimajor axis~\cite{Cox2000}} & \multicolumn{1}{c}{Orbital period~\cite{Cox2000}} & Precession rate~\cite{Pitjeva2009a} & \multicolumn{1}{c}{Eccentricity~\cite{Cox2000}} \\
-Planet & \multicolumn{1}{c}{$r/10^{11}\units{m}$} & \multicolumn{1}{c}{$(2\pi/\omega_0)/mathrm{yr}$} &$\Delta \varpi \pm \sigma_{\Delta \varpi}/\mathrm{mas\,yr^{-1}}$ & \multicolumn{1}{c}{$e$} \\
+Planet & \multicolumn{1}{c}{$r/10^{11}\units{m}$} & \multicolumn{1}{c}{$(2\pi/\omega_0)/\mathrm{yr}$} &$\Delta \varpi \pm \sigma_{\Delta \varpi}/\mathrm{mas\,yr^{-1}}$ & \multicolumn{1}{c}{$e$} \\
 \hline
 Mercury & 0.57909175 & 0.24084445 & $\phantom{0}{-0.040} \pm \phantom{0}0.050\phantom{0}$ & 0.20563069 \\
 Venus & 1.0820893 & 0.61518257 & $\phantom{-0}0.24\phantom{0} \pm \phantom{0}0.33\phantom{00}$ & 0.00677323 \\
@@ -820,7 +820,7 @@ Since several of the deviations are negative, they cannot be explained by $f(R)$
 \begin{ruledtabular}
 \begin{tabular}{l D{.}{.}{2.2} D{.}{.}{5.1} D{.}{.}{2.2} D{.}{.}{5.1}}
  &  \multicolumn{2}{c}{Using $\sigma_{\Delta \varpi}$} & \multicolumn{2}{c}{Using $2\sigma_{\Delta \varpi}$} \\
-Planet & \multicolumn{1}{c}{$\Upsilon/10^{-11}\units{m^{-1}}$} & \multicolumn{1}{c}{$|a_2|/10^{18}{\metre^2}$} & \multicolumn{1}{c}{$\Upsilon/10^{-11}\units{m^{-1}}$} & \multicolumn{1}{c}{$|a_2|/10^{18}\units{m^2}$} \\
+Planet & \multicolumn{1}{c}{$\Upsilon/10^{-11}\units{m^{-1}}$} & \multicolumn{1}{c}{$|a_2|/10^{18}\units{m^2}$} & \multicolumn{1}{c}{$\Upsilon/10^{-11}\units{m^{-1}}$} & \multicolumn{1}{c}{$|a_2|/10^{18}\units{m^2}$} \\
 \hline
 Mercury & 52.6 & 1.2 & 51.3 & 1.3 \\
 Venus & 25.3 & 5.2 & 24.6 & 5.5 \\
@@ -837,7 +837,7 @@ Pluto & 0.26 & 49000 & 0.25 & 55000 \\
 \end{table}
 \endgroup
 
-The tightest constraint is obtained from the orbit of Mercury. Adopting a value of $\Upsilon \geq 5.26 \times 10^{10}\units{m^{-1}}$, the cutoff frequency for the Ricci mode is $\geq 0.158\units{s^{-1}}$. Therefore it could lie in the upper range of the LISA frequency band~\cite{Bender1998,Danzmann2003} or in the LIGO/Virgo frequency range~\cite{Abramovici1992, Abbott2009, Accadia2010}. However, as we will see in \secref{Fifth}, it is possible to place stronger constriants on $\Upsilon$ using laboratory experiments.
+The tightest constraint is obtained from the orbit of Mercury. Adopting a value of $\Upsilon \geq 5.26 \times 10^{10}\units{m^{-1}}$, the cutoff frequency for the Ricci mode is $\geq 0.158\units{s^{-1}}$. Therefore it could lie in the upper range of the LISA frequency band~\cite{Bender1998,Danzmann2003} or in the LIGO/Virgo frequency range~\cite{Abramovici1992}. However, as we will see in \secref{Fifth}, it is possible to place stronger constraints on $\Upsilon$ using laboratory experiments.
 
 \subsection{Fifth-Force Tests\label{sec:Fifth}}
 
@@ -875,6 +875,6 @@ An interesting extension to the work presented here is to consider the case when
 Thanks to Jonathan Gair for suggesting this research topic and for his continued guidance and encouragement. The author is supported by an STFC studentship.
 \end{acknowledgments}
 
-\bibliography{../library}
+\bibliography{Linearized_f_R}
 
 \end{document}
