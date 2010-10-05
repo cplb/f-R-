@@ -58,7 +58,7 @@ Throughout this work we will use the time-like sign convention of Landau and Lif
 \item The Riemann tensor is defined as ${R^\mu}_{\nu\sigma\rho} = \partial_\sigma {\Gamma^\mu}_{\nu\rho} - \partial_\rho {\Gamma^\mu}_{\nu\sigma} + {\Gamma^\mu}_{\lambda\sigma}{\Gamma^\lambda}_{\rho\nu} - {\Gamma^\mu}_{\lambda\rho}{\Gamma^\lambda}_{\sigma\nu}$.
 \item The Ricci tensor is defined as the contraction $R_{\mu\nu} = {R^\lambda}_{\mu\lambda\nu}$.
 \end{enumerate}
-Greek indices are used to represent spacetime indices $\mu = \{0,1,2,3\}$ and lowercase Latin indices from the middle of the alphabet are used for spatial indices $i = \{1,2,3\}$. Natural units with $c = 1$ will be used throughout, but factors of $G$ will be retained.
+Greek indices are used to represent spacetime indices $\mu = \{0,1,2,3\}$ and lowercase Latin indices are used for spatial indices $i = \{1,2,3\}$. Natural units with $c = 1$ will be used throughout, but factors of $G$ will be retained.
 
 \subsection{The Action \& Field Equations\label{sec:Action}}
 
@@ -170,7 +170,7 @@ To $\order{\varepsilon}$ the covariant derivative of any perturbed quantity will
 \end{equation}
 where we have raised the index on the differential operator with the background Minkowski metric. Contracting gives the Ricci tensor
 \begin{equation}
-{R^{(1)}}_{\mu\nu} = \frac{1}{2}(\partial_\mu\partial_\rho h^\rho_\nu + \partial_\nu\partial_\rho h^\rho_\mu -\Box h_{\mu\nu} - \partial_\mu\partial_\nu h),
+{R^{(1)}}_{\mu\nu} = \frac{1}{2}(\partial_\mu\partial_\rho h^\rho_\nu + \partial_\nu\partial_\rho h^\rho_\mu - \partial_\mu\partial_\nu h - \Box h_{\mu\nu}),
 \label{eq:Ricci}
 \end{equation}
 where the d'Alembertian operator is $\Box = \eta^{\mu\nu}\partial_\mu\partial_\nu$. Contracting this with $\eta^{\mu\nu}$ gives the first order Ricci scalar
@@ -247,7 +247,7 @@ Subject to this, from \eqnref{Ricci}, the Ricci tensor is
 \end{eqnarray}
 Using this with \eqnref{Box_R} in \eqnref{Field} gives
 \begin{eqnarray}
-{\mathcal{G}^{(1)}}_{\mu\nu} & = & \frac{2 - b}{6}\mathcal{G}^{(1)}\eta_{\mu\nu} -\frac{1}{2}\Box\left(\overline{h}_{\mu\nu} - \frac{\overline{h}}{2}\right) \nonumber \\*
+{\mathcal{G}^{(1)}}_{\mu\nu} & = & \frac{2 - b}{6}\mathcal{G}^{(1)}\eta_{\mu\nu} -\frac{1}{2}\Box\left(\overline{h}_{\mu\nu} - \frac{\overline{h}}{2}\eta_{\mu\nu}\right) \nonumber \\*
  & & - (b + 1)\left(a_2\partial_\mu\partial_\nu R^{(1)} + \recip{6}R^{(1)}\eta_{\mu\nu}\right).
 \label{eq:b_Field}
 \end{eqnarray}
@@ -262,7 +262,7 @@ h_{\mu\nu} & = & \overline{h}_{\mu\nu} - \left(a_2 R^{(1)} + \frac{\overline{h}}
 \end{subequations}
 From \eqnref{Scalar} the Ricci scalar is 
 \begin{eqnarray}
-R^{(1)} & = & \Box \left(a_2 R^{(1)} -\frac{\overline{h}}{2}\eta_{\mu\nu}\right) - \Box (-4 a_2 R^{(1)} - \overline{h}) \nonumber \\*
+R^{(1)} & = & \Box \left(a_2 R^{(1)} -\frac{\overline{h}}{2}\right) - \Box (-4 a_2 R^{(1)} - \overline{h}) \nonumber \\*
  & = & 3a_2 \Box R^{(1)} + \frac{1}{2}\Box \overline{h}.
 \label{eq:Ricci_Box_h}
 \end{eqnarray}
@@ -278,7 +278,7 @@ Inserting this into \eqnref{b_Field}, with $b = -1$, we see
 \end{equation}
 we have our wave equation.
 
-Should $a_2$ be sufficiently small that it can be regarded an $\order{\varepsilon}$ quantity, we recover GR to leading order within our analysis.
+Should $a_2$ be sufficiently small that it can be regarded an $\order{\varepsilon}$ quantity, we recover the usual GR equations to leading order within our analysis.
 
 \section{Gravitational Radiation\label{sec:Rad}}
 
@@ -312,7 +312,7 @@ in this case
 \label{eq:Transverse}
 \end{equation}
 
-Let us consider the implications of \eqnref{Box_h} using equations \eqnref{h_trace} and \eqnref{Box_R},
+Let us consider the implications of \eqnref{Box_h} using equations \eqnref{Box_R} and \eqnref{h_trace},
 \begin{eqnarray}
 \Box\left(4a_2R^{(1)} + h\right) & = & 0 \nonumber \\*
 \Box h & = & -\frac{4}{3}R^{(1)}.
@@ -370,7 +370,7 @@ By shifting ${\mathcal{G}^{(2)}}_{\mu\nu}$ to the right-hand side we create an e
 \begin{equation}
 {\mathcal{G}^{(\text{B})}}_{\mu\nu} = -\left\langle{\mathcal{G}^{(2)}}_{\mu\nu}\right\rangle.
 \end{equation}
-By averaging we probe the curvature in a macroscopic region about a given point in spacetime, yielding a gauge invariant measure of the gravitational field strength. The averaging can be thought of as smoothing out the rapidly varying ripples of the radiation, leaving only the coarse-grained component that acts as a source for the background curvature.\footnote{By averaging we do not try to localise the energy of a wave to within a wavelength; for the massive Ricci scalar mode we always consider scales greater than $\lambdabar_R$.} The energy-momentum pseudotensor for the radiation is
+By averaging we probe the curvature in a macroscopic region about a given point in spacetime, yielding a gauge invariant measure of the gravitational field strength. The averaging can be thought of as smoothing out the rapidly varying ripples of the radiation, leaving only the coarse-grained component that acts as a source for the background curvature.\footnote{By averaging we do not try to localise the energy of a wave to within a wavelength; for the massive Ricci scalar mode we always consider scales greater than $\lambda_R$.} The energy-momentum pseudotensor for the radiation is
 \begin{equation}
 t_{\mu\nu} = -\recip{8\pi G}\left\langle{\mathcal{G}^{(\text{2})}}_{\mu\nu}\right\rangle.
 \end{equation}
@@ -552,7 +552,7 @@ Thus, to first order, the metric for a point mass in $f(R)$-gravity is~\cite{Cap
  & & - \left\{1+\frac{2GM}{r}\left[1 - \frac{\exp(- \Upsilon r)}{3}\right]\right\}\left(\dd x^2 + \dd y^2 + \dd z^2\right).
 \label{eq:f(R)_Schw}
 \end{eqnarray}
-This is not the linearized limit of the Schwarzschild metric (although it is recovered as $a_2 \rightarrow 0$, $\Upsilon \rightarrow \infty$). Therefore Schwarzschild black holes (BHs) do not exist in $f(R)$-gravity (with $a_2 \neq 0$)~\cite{Chiba2007a}. This metric has already been derived for the case of quadratic gravity, which includes terms like $R^2$ and $R_{\mu\nu}R^{\mu\nu}$ in the Lagrangian~\cite{Pechlaner1966, Stelle1978, Schmidt1986, Teyssandier1990}. In linearized theory our $f(R)$ reduces to quadratic theory, as to first order $f(R) = R + a_2 R^2$.
+This is not the linearized limit of the Schwarzschild metric (although it is recovered as $a_2 \rightarrow 0$, $\Upsilon \rightarrow \infty$). Therefore Schwarzschild black holes (BHs) do not exist in $f(R)$-gravity (with $a_2 \neq 0$)~\cite{Chiba2007a}. This metric has already been derived for the case of quadratic gravity, which includes terms like $R^2$ and $R_{\mu\nu}R^{\mu\nu}$ in the Lagrangian~\cite{Pechlaner1966, Stelle1978, Schmidt1986, Teyssandier1990}. In linearized theory our $f(R)$ reduces to quadratic theory, as to first order $f(R) = R + a_2 R^2/2$.
 
 Extending this result to a slowly rotating source with angular momentum $J$; we then have the additional term~\cite{Hobson2006}
 \begin{equation}
@@ -703,7 +703,7 @@ To find $B(\widetilde{r})$ we consider, using \eqnref{r_tilde},
 \end{eqnarray}
 Thus
 \begin{equation}
-\dd \widetilde{r}^{\,2} = \frac{\widetilde{r}^{\,2}}{r^2}\left\{\frac{1 + {\Upsilon r\sub{S}r\exp(-\Upsilon r)}/{6\widetilde{r}}}{1 + ({r\sub{S}}/{2\widetilde{r}})\left[1 - {\exp(-\Upsilon r)}/{3}\right]}\right\}\dd r^2.
+\dd \widetilde{r}^{\,2} = \frac{\widetilde{r}^{\,2}}{r^2}\left\{\frac{1 + {\Upsilon r\sub{S}r\exp(-\Upsilon r)}/{6\widetilde{r}}}{1 + ({r\sub{S}}/{2\widetilde{r}})\left[1 - {\exp(-\Upsilon r)}/{3}\right]}\right\}^2 \dd r^2.
 \end{equation}
 The term in braces is $\left[B(\widetilde{r})\right]^{-1}$. We assume that in the weak-field
 \begin{equation}
@@ -749,7 +749,7 @@ Thus a circular orbit is defined by one of $\{E,L,\widetilde{r}\}$. We will cons
 \end{equation}
 where $\overline{r}$ is the radius of the unperturbed orbit. We will denote $A(\overline{r}) = \overline{A}$ and $B(\overline{r}) = \overline{B}$. Substituting into \eqnref{geodesic} and retaining terms to first order
 \begin{equation}
-\ddot{\delta} = - \frac{2\overline{A}^2L^2}{\overline{r}^3\overline{A}'\overline{B}}\left(\frac{\overline{A}''}{2\overline{A}^2} - \frac{{\overline{A}'}^2}{\overline{A}^3}\right)\delta + \frac{3L^2}{\overline{r}^4}\delta.
+\ddot{\delta} = - \left[\frac{2\overline{A}^2L^2}{\overline{r}^3\overline{A}'\overline{B}}\left(\frac{\overline{A}''}{2\overline{A}^2} - \frac{{\overline{A}'}^2}{\overline{A}^3}\right) + \frac{3L^2}{\overline{r}^4\overline{B}}\right]\delta.
 \end{equation}
 Assuming a solution of form $\delta = \delta_0\cos(-i\Omega\tau)$,
 \begin{equation}
@@ -788,7 +788,7 @@ For the $f(R)$ metric defined by equations \eqnref{A_metric} and \eqnref{B_metri
 defining the function
 \begin{eqnarray}
 \zeta & = & r\sub{S}\left(\recip{3\overline{r}} + \Upsilon\right)\exp(-\Upsilon r) + \frac{\Upsilon^2\overline{r}^2\exp(-\Upsilon r)}{3 + (1 + \Upsilon \overline{r})\exp(-\Upsilon r)} \nonumber \\*
-& &  \times \left\{1 - \frac{r\sub{S}}{\overline{r}}\left[1 + \frac{\exp(-\Upsilon r)}{3}\right] - \frac{\Upsilon r\sub{S}\exp(-\Upsilon r)}{3}\right\}.
+& &  \times \left\{1 - \frac{r\sub{S}}{\overline{r}}\left[1 - \frac{\exp(-\Upsilon r)}{3}\right] - \frac{\Upsilon r\sub{S}\exp(-\Upsilon r)}{3}\right\}.
 \end{eqnarray}
 This characterizes the deviation from the Schwarzschild case: the change in the precession per orbit relative to Schwarzschild is
 \begin{eqnarray}
