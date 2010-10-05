@@ -126,7 +126,7 @@ Acting upon this with the covariant derivative
 \end{eqnarray}
 The second term contains the covariant derivative of the Einstein tensor and so is zero. The final term can be shown to be
 \begin{eqnarray}
-\left(\Box\nabla_\nu - \nabla_\nu\Box\right)f' & = & g^{\mu\sigma}\left[\nabla_\mu\nabla_\sigma\nabla_\nu - \nabla_\nu\nabla_\mu\nabla_\sigma\right]f' \nonumber \\*
+\left(\Box\nabla_\nu - \nabla_\nu\Box\right)f' & = & g^{\mu\sigma}\left(\nabla_\mu\nabla_\sigma\nabla_\nu - \nabla_\nu\nabla_\mu\nabla_\sigma\right)f' \nonumber \\*
  & = & R_{\tau\nu}\nabla^\tau f',
 \end{eqnarray}
 which is a useful geometric identity~\cite{Koivisto2006a}. Using this
@@ -242,8 +242,8 @@ to first order this is
 \end{equation}
 Subject to this, from \eqnref{Ricci}, the Ricci tensor is
 \begin{eqnarray}
-{R^{(1)}}_{\mu\nu} & = & -\frac{1}{2}\left\{2b a_2 \partial_\mu\partial_\nu R^{(1)} + \Box\left(\overline{h}_{\mu\nu} -\frac{\overline{h}}{2}\eta_{\mu\nu}\right) \right. \nonumber \\*
- & &  +\left . \frac{b}{3}(R^{(1)} + \mathcal{G}^{(1)})\eta_{\mu\nu}\right\}.
+{R^{(1)}}_{\mu\nu} & = & -\frac{1}{2}\left[2b a_2 \partial_\mu\partial_\nu R^{(1)} + \Box\left(\overline{h}_{\mu\nu} -\frac{\overline{h}}{2}\eta_{\mu\nu}\right) \right. \nonumber \\*
+ & &  +\left . \frac{b}{3}(R^{(1)} + \mathcal{G}^{(1)})\eta_{\mu\nu}\right].
 \end{eqnarray}
 Using this with \eqnref{Box_R} in \eqnref{Field} gives
 \begin{eqnarray}
@@ -278,7 +278,7 @@ Inserting this into \eqnref{b_Field}, with $b = -1$, we see
 \end{equation}
 we have our wave equation.
 
-Should $a_2$ be sufficiently small that it can be regarded an $\order{\varepsilon}$ quantity, we recover the usual GR equations to leading order within our analysis.
+Should $a_2$ be sufficiently small that it can be regarded an $\order{\varepsilon}$ quantity, we recover the usual GR formulae to leading order within our analysis.
 
 \section{Gravitational Radiation\label{sec:Rad}}
 
@@ -409,8 +409,8 @@ The next term is
  & & + \left.\left. \partial_\sigma\partial_\rho\left(\overline{h}_{\mu\nu} - a_2 R^{(1)}\gamma_{\mu\nu}\right) - \partial_\nu\partial_\rho\left(\overline{h}_{\sigma\mu} \vphantom{R^{(1)}} \right.\right.\right. \nonumber \\*
  & & - \left.\left.\left. a_2 R^{(1)} \gamma_{\sigma\mu}\right) - \partial_\mu\partial_\rho\left(\overline{h}_{\sigma\nu} - a_2 R^{(1)} \gamma_{\sigma\nu}\right)\right] \right. \nonumber \\*
  & & + \left. \partial^\rho\overline{h}^\sigma_\nu\left(\partial_\rho\overline{h}_{\sigma\mu} - \partial_\sigma\overline{h}_{\rho\mu}\right) - a_2 \partial^\sigma R^{(1)}\partial_\sigma\overline{h}_{\mu\mu} \right. \nonumber \\*
- & & + \left. a_2^2 \left[2R^{(1)}\partial_\mu\partial_\nu R^{(1)} + 3\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right.\right. \nonumber \\*
- & & + \left.\left. R^{(1)} \Box^{(\text{B})} R^{(1)} \gamma_{\mu\nu}\right]\right\}.
+ & & + \left. a_2^2 \left(2R^{(1)}\partial_\mu\partial_\nu R^{(1)} + 3\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right.\right. \nonumber \\*
+ & & + \left.\left. R^{(1)} \Box^{(\text{B})} R^{(1)} \gamma_{\mu\nu}\right)\right\}.
 \end{eqnarray}
 The d'Alembertian is $\Box^{(\text{B})} = \gamma^{\mu\nu}\partial_\mu\partial_\nu$.
 
@@ -457,23 +457,23 @@ As a corollary of this we have
 \end{equation}
 Repeated application of this, together with our gauge condition, \eqnref{Lorenz}, and wave equations, \eqnref{Box_R} and \eqnref{Box_hmunu}, allows us to eliminate many terms. Those that do not average to zero are
 \begin{eqnarray}
-\left\langle {R^{(2)}}_{\mu\nu} \right\rangle & = & \left\langle -\recip{4} \partial_\mu\overline{h}_{\sigma\rho}\partial^\mu\overline{h}^{\rho\sigma} + \frac{a_2^2}{2}\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right. \nonumber \\* 
+\left\langle {R^{(2)}}_{\mu\nu} \right\rangle & = & \left\langle -\recip{4} \partial_\mu\overline{h}_{\sigma\rho}\partial_\nu\overline{h}^{\rho\sigma} + \frac{a_2^2}{2}\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right. \nonumber \\* 
  & & + \left. \frac{a_2}{6}\gamma_{\mu\nu}R^{(1)} \right\rangle; \\
 \left\langle R^{(2)} \right\rangle & = & \left\langle \frac{3a_2}{2}{R^{(1)}}^2 \right\rangle; \\
 \left\langle R^{(1)}{R^{(1)}}_{\mu\nu} \right\rangle & = & \left\langle a_2 R^{(1)} \partial_\mu\partial_\nu R^{(1)} + \recip{6}\gamma_{\mu\nu}{R^{(1)}}^2\right\rangle.
 \end{eqnarray}
 Combining these gives
 \begin{equation}
-\left\langle {\mathcal{G}^{(2)}}_{\mu\nu}\right\rangle = \left\langle -\recip{4} \partial_\mu\overline{h}_{\sigma\rho}\partial^\mu\overline{h}^{\rho\sigma} - \frac{3a_2^2}{2}\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right\rangle.
+\left\langle {\mathcal{G}^{(2)}}_{\mu\nu}\right\rangle = \left\langle -\recip{4} \partial_\mu\overline{h}_{\sigma\rho}\partial_\nu\overline{h}^{\rho\sigma} - \frac{3a_2^2}{2}\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right\rangle.
 \end{equation}
 Thus we obtain the result
 \begin{equation}
-t_{\mu\nu} = \recip{32\pi G}\left\langle \partial_\mu\overline{h}_{\sigma\rho}\partial^\mu\overline{h}^{\rho\sigma} + 6a_2^2\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right\rangle.
+t_{\mu\nu} = \recip{32\pi G}\left\langle \partial_\mu\overline{h}_{\sigma\rho}\partial_\nu\overline{h}^{\rho\sigma} + 6a_2^2\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right\rangle.
 \label{eq:Pseudotensor}
 \end{equation}
 In the limit of $a_2 \rightarrow 0$ we obtain the familiar GR result as required. The GR result is also recovered if $R^{(1)} = 0$, as would be the case if the Ricci mode was not excited, for example if the frequency was below the cut off frequency $\Upsilon$. Rewriting the pseudotensor in terms of metric perturbation $h_{\mu\nu}$, using \eqnref{gauge},
 \begin{equation}
-t_{\mu\nu} = \recip{32\pi G}\left\langle \partial_\mu h_{\sigma\rho}\partial^\mu h^{\rho\sigma} + \recip{8}\partial_\mu h \partial_\nu h \right\rangle.
+t_{\mu\nu} = \recip{32\pi G}\left\langle \partial_\mu h_{\sigma\rho}\partial_\nu h^{\rho\sigma} + \recip{8}\partial_\mu h \partial_\nu h \right\rangle.
 \end{equation}
 These results do not depend upon $a_3$ or higher order coefficients.
 
@@ -804,7 +804,7 @@ We can apply this to the classic test of planetary precession in the solar syste
 \begin{ruledtabular}
 \begin{tabular}{l D{.}{.}{2.8} D{.}{.}{3.8} c D{.}{.}{1.8}}
  & \multicolumn{1}{c}{Semimajor axis~\cite{Cox2000}} & \multicolumn{1}{c}{Orbital period~\cite{Cox2000}} & Precession rate~\cite{Pitjeva2009a} & \multicolumn{1}{c}{Eccentricity~\cite{Cox2000}} \\
-Planet & \multicolumn{1}{c}{$r/10^{11}\units{m}$} & \multicolumn{1}{c}{$(2\pi/\omega_0)/\mathrm{yr}$} &$\Delta \varpi \pm \sigma_{\Delta \varpi}/\mathrm{mas\,yr^{-1}}$ & \multicolumn{1}{c}{$e$} \\
+Planet & \multicolumn{1}{c}{$r/10^{11}\units{m}$} & \multicolumn{1}{c}{$(2\pi/\omega_0)/\mathrm{yr}$} & $\Delta \varpi \pm \sigma_{\Delta \varpi}/\mathrm{mas\,yr^{-1}}$ & \multicolumn{1}{c}{$e$} \\
 \hline
 Mercury & 0.57909175 & 0.24084445 & $\phantom{0}{-0.040} \pm \phantom{0}0.050\phantom{0}$ & 0.20563069 \\
 Venus & 1.0820893 & 0.61518257 & $\phantom{-0}0.24\phantom{0} \pm \phantom{0}0.33\phantom{00}$ & 0.00677323 \\
@@ -813,8 +813,8 @@ Mars & 2.2793664 & 1.88071105 & $\phantom{0}{-0.07}\phantom{0} \pm \phantom{0}0.
 Jupiter & 7.7841202 & 11.85652502 & $\phantom{-0}0.67\phantom{0} \pm \phantom{0}0.93\phantom{00}$ & 0.04839266 \\
 Saturn & 14.267254 & 29.42351935 & $\phantom{0}{-0.10}\phantom{0} \pm \phantom{0}0.15\phantom{00}$ & 0.05415060 \\
 Uranus & 28.709722 & 83.74740682 & ${-38.9}\phantom{00} \pm 39.0\phantom{000}$ & 0.04716771 \\
-Neptune & 44.982529 & 163.723204 & ${-44.4}\phantom{00} \pm 54.0\phantom{000}$ & 0.00858587 \\
-Pluto & 59.063762 & 248.0208 & $\phantom{-}28.4\phantom{00} \pm 25.1\phantom{000}$ & 0.24880766 \\
+Neptune & 44.982529 & 163.7232045 & ${-44.4}\phantom{00} \pm 54.0\phantom{000}$ & 0.00858587 \\
+Pluto & 59.063762 & 248.0208 & $\phantom{-}28.4\phantom{00} \pm 45.1\phantom{000}$ & 0.24880766 \\
 \end{tabular}
 \end{ruledtabular}
 \caption{Orbital properties of the eight major planets and Pluto. We take the semimajor orbital axis to be the flat-space distance $r$, not the coordinate $\widetilde{r}$. The eccentricity is not used in calculations, but is given to assess the accuracy of neglecting terms $\order{e^2}$.\label{tab:Precess}}
