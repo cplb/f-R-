@@ -1,5 +1,5 @@
-%\documentclass[aps,prd,amsfonts,amssymb,amsmath,nofootinbib,reprint,showpacs]{revtex4-1}
-\documentclass[aps,prd,amsfonts,amssymb,amsmath,nofootinbib,reprint,showpacs]{revtex4}
+\documentclass[aps,prd,amsfonts,amssymb,amsmath,nofootinbib,reprint,showpacs]{revtex4-1}
+%\documentclass[aps,prd,amsfonts,amssymb,amsmath,nofootinbib,reprint,showpacs]{revtex4}
 \usepackage{graphicx,color,psfrag}
 \usepackage{mathrsfs}
 \usepackage{dcolumn}
@@ -88,7 +88,7 @@ We will restrict our attention to metric $f(R)$-gravity. This is preferred as th
 \delta S & = & \recip{16\pi G}\int\left\{f'(R)\sqrt{-g}\left[R_{\mu\nu} - \nabla_\mu\nabla_\nu\ + g_{\mu\nu}\Box\right] \hphantom{\frac{0}{0}} \vphantom{\frac{0}{0}} \right. \nonumber \\*
  & & - \left. f(R)\recip{2}\sqrt{-g}g_{\mu\nu}\right\}\delta g^{\mu\nu}\,\dd^4x,
 \end{eqnarray}
-where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here requires certain assumptions regarding surface terms. In the case of the Einstein-Hilbert action these gather into a total derivative. It is possible to subtract this from the action to obtain a well-defined variational quantity~\cite{York1972, Gibbons1977}. This is not the case for general $f(R)$~\cite{Madsen1989}. However, since the action includes higher-order derivatives of the metric we are at liberty to fix more degrees of freedom at the boundary, in so doing eliminating the importance of the surface terms~\cite{Dyer2009a, Sotiriou2010}. There is no well described prescription for this so we proceed directly to the field equations.
+where $\Box = g^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian and a prime denotes differentiation with respect to $R$. Proceeding from here requires certain assumptions regarding surface terms. In the case of the Einstein-Hilbert action these gather into a total derivative. It is possible to subtract this from the action to obtain a well-defined variational quantity~\cite{York1972, Gibbons1977}. This is not the case for general $f(R)$~\cite{Madsen1989}. However, since the action includes higher-order derivatives of the metric we are at liberty to fix more degrees of freedom at the boundary, in so doing eliminating the importance of the surface terms~\cite{Dyer2009a, Sotiriou2010}. Setting the variation $\delta R = 0$ on the boundary allows us to subtract a term similar to in GR~\cite{Guarnizo2010}. Thus we have a well-defined variational quantity, from which we can obtain the field equations.
 
 The vacuum field equations are
 \begin{equation}
@@ -582,7 +582,7 @@ as in GR, and for the point mass, but
 R^{(1)} & = & -6 G M \frac{\exp(- \Upsilon r)}{r}\left[\frac{\Upsilon L\cosh(\Upsilon L) - \sinh(\Upsilon L)}{\Upsilon L^3}\right] \\
  & = &  -6 G M \frac{\exp(- \Upsilon r)}{r}\Upsilon^2\Xi(\Upsilon L),
 \end{eqnarray}
-defining $\Xi(\Upsilon L)$ in the last line.\footnote{$\Xi(0) = 1/3$ is the minimum of $\Xi(\Upsilon L)$.} The metric perturbation thus has non-zero first order elements~\cite{Stelle1978, Capozziello2009b}
+defining $\Xi(\Upsilon L)$ in the last line.\footnote{$\Xi(0) = 1/3$ is the minimum of $\Xi(\Upsilon L)$.} The metric perturbation thus has non-zero first order elements~\cite{Stelle1978, Capozziello2009b, Stabile2010}
 \begin{equation}
 \begin{split}
 h_{00} & = {} -2 G M \left[1 + \exp(- \Upsilon r)\Xi(\Upsilon L)\right]; \\*
@@ -606,7 +606,7 @@ where for a point mass
 \begin{equation}
 U(r) = \frac{GM}{r}.
 \end{equation}
-The $f(R)$ metric \eqnref{f(R)_Schw} is of a similar form, but there is not a direct correspondence because of the exponential. It has been suggested that this may be incorporated by changing the definition of the potential $U$~\cite{Olmo2007c, DeFelice2010}, then
+The $f(R)$ metric \eqnref{f(R)_Schw} is of a similar form, but there is not a direct correspondence because of the exponential.\footnote{Our $f(R)$ theory is equivalent to a Brans-Dicke theory with a potential and parameter $\omega\sub{BD} = 0$~\cite{Teyssandier1983, Wands1994}. We cannot use the familiar result $\gamma = (1 + \omega\sub{BD})/(2 + \omega\sub{BD})$~\cite{Will2006} as this was dervied for Brans-Dicke theory without a potential~\cite{Will1998}.} It has been suggested that this may be incorporated by changing the definition of the potential $U$~\cite{Olmo2007c, Faulkner2007, Bisabr2010, DeFelice2010}, then
 \begin{equation}
 \gamma = \frac{3 - \exp(-\Upsilon r)}{3 + \exp(-\Upsilon r)}.
 \end{equation}
@@ -679,7 +679,7 @@ Using this, our $f(R)$ solutions have $\gamma = 1$. This agrees with the result 
 
 It is useful to transform the weak-field metric, \eqnref{f(R)_Kerr}, to the more familiar form
 \begin{equation}
-\dd s^2 = A(\widetilde{r}) \dd t^2 +(4GJ/r) \sin^2\theta \dd \phi \dd t- B(\widetilde{r})\dd \widetilde{r}^{\,2} - \widetilde{r}^{\,2} \dd \Omega^2.
+\dd s^2 = A(\widetilde{r}) \dd t^2 + \frac{4GJ}{\widetilde{r}} \sin^2\theta \dd \phi \dd t- B(\widetilde{r})\dd \widetilde{r}^{\,2} - \widetilde{r}^{\,2} \dd \Omega^2.
 \label{eq:Sph_sym}
 \end{equation}
 The coordinate $\widetilde{r}$ is a circumferential measure, as in the Schwarzschild metric, as opposed to $r$, used in preceding sections, which is a radial distance (an isotropic coordinate)~\cite{Misner1973, Olmo2007c}. To simplify the algebra we introduce the Schwarzschild radius
@@ -717,7 +717,7 @@ is small. Then the metric perturbations from Minkowski are small. Expanding to f
 B(\widetilde{r})  = 1 + \frac{r\sub{S}}{\widetilde{r}}\left[1 + \frac{\exp(-\Upsilon r )}{3}\right] - \frac{\Upsilon r\sub{S} \exp(-\Upsilon r)}{3}.
 \label{eq:B_metric}
 \end{equation}
-In the limit $\Upsilon \rightarrow \infty$, where we recover GR, $A(\widetilde{r})$ and $B(\widetilde{r})$ tend to their Schwarzschild forms.
+In the limit $\Upsilon \rightarrow \infty$, where we recover GR, $A(\widetilde{r})$ and $B(\widetilde{r})$ tend to their Kerr (Schwarzschild) forms.
 
 \subsection{Epicyclic Frequencies\label{sec:Epicycle}}
 
@@ -725,23 +725,23 @@ One means of probing the nature of a spacetime is through observations of orbita
 
 An orbit in a spacetime described by \eqnref{Sph_sym} has as constants of motion: the orbiting particle's rest mass, the energy (per unit mass) of the orbit $E$ and the $z$-component of the angular momentum (per unit mass) $L_z$. Using an over-dot to denote differentiation with respect to an affine parameter, which we identify as proper time $\tau$,
 \begin{eqnarray}
-E & = & A\dot{t} + (2GJ/r) \sin^2\theta\dot{\phi}; \\
-L_z & = & \widetilde{r}^{\,2}\sin^2\theta\, \dot{\phi} - (2GJ/r) \sin^2\theta\dot{t}.
+E & = & A\dot{t} + \frac{2GJ}{\widetilde{r}} \sin^2\theta\dot{\phi}; \\
+L_z & = & \widetilde{r}^{\,2}\sin^2\theta\, \dot{\phi} - \frac{2GJ}{\widetilde{r}} \sin^2\theta\dot{t}.
 \end{eqnarray}
-We will consider perturbations of circular-equatorial orbits, i.e., orbits such that $\dot{\tilde{r}}=\ddot{\tilde{r}}=\dot{\theta}=0$ and $\theta=\pi/2$. The timelike geodesic equation can be written in the covariant form
+We will consider perturbations of circular-equatorial orbits; orbits such that $\dot{\widetilde{r}} = \ddot{\widetilde{r}} = \dot{\theta}= 0$ and $\theta = \pi/2$. The timelike geodesic equation can be written in the covariant form
 \begin{equation}
 \frac{\dd u_\mu}{\dd \tau} = \frac{1}{2} \left(\partial_\mu g_{\rho\sigma} \right) u^\rho u^\sigma .
 \end{equation}
-For a circular equatorial orbit, setting $\mu = \tilde{r}$ gives the frequency of the orbit $\omega_0=\dd\phi/\dd t$ as
+For a circular equatorial orbit, setting $\mu = \tilde{r}$ gives the frequency of the orbit $\omega_0 = \dd\phi/\dd t$ as
 \begin{equation}
-\omega_0 = -\frac{GJ}{\tilde{r}^3} \pm \frac{1}{2} \sqrt{\frac{2A'}{\tilde{r}} + \left(\frac{2GJ}{\tilde{r}^3}\right)^2}
+\omega_0 = -\frac{GJ}{\widetilde{r}^{\,3}} \pm \frac{1}{2} \sqrt{\frac{2A'}{\widetilde{r}} + \left(\frac{2GJ}{\widetilde{r}^{\,3}}\right)^2}
 \label{eq:omz}
 \end{equation}
 in which a dash denotes $\dd/\dd\tilde{r}$ and the $+/-$ sign denotes prograde/retrograde orbits. The definition of proper time then gives
 \begin{equation}
-\dot{t}=\left( A+4GJ\omega_0/\tilde{r} - \tilde{r}^2\omega_0 \right)^{-1/2}
+\dot{t}=\left(A + \frac{4GJ\omega_0}{\widetilde{r}} - \widetilde{r}^{\,2}\omega_0 \right)^{-1/2}
 \end{equation}
-from which we get $\dot{\phi} = \omega_0 \dot{t}$ and hence we have $\omega_0$, $E$ and $L_z$ in terms of $\tilde{r}$. 
+from which we get $\dot{\phi} = \omega_0 \dot{t}$ and hence we have $\omega_0$, $E$ and $L_z$ in terms of $\widetilde{r}$. 
 
 %As a consequence of the spherical symmetry we can confine the motion to the equatorial plane $\theta = \pi/2$ without loss of generality. 
 From the Hamiltonian $\mathcal{H} = g_{\mu\nu}\dot{x}^\mu\dot{x}^\nu$ we can obtain the general equation of motion for massive particles, using the substitutions
