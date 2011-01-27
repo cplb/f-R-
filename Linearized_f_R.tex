@@ -18,6 +18,7 @@
 \newcommand{\dd}{\ensuremath{\text{d}}}
 \newcommand{\diff}[2]{\ensuremath{\frac{\dd {#1}}{\dd {#2}}}}
 \newcommand{\difftwo}[2]{\ensuremath{\frac{\dd^2 {#1}}{\dd {#2}^2}}}
+\newcommand{\partialdiff}[2]{\ensuremath{\frac{\partial {#1}}{\partial {#2}}}}
 \newcommand{\intd}[4]{\ensuremath{\int_{#1}^{#2}{#3}\,\dd{#4}}}
 \newcommand{\recip}[1]{\ensuremath{\frac{1}{#1}}}
 \newcommand{\grad}{\ensuremath{\boldsymbol{\nabla}}}
@@ -725,23 +726,25 @@ One means of probing the nature of a spacetime is through observations of orbita
 
 An orbit in a spacetime described by \eqnref{Sph_sym} has as constants of motion: the orbiting particle's rest mass, the energy (per unit mass) of the orbit $E$ and the $z$-component of the angular momentum (per unit mass) $L_z$. Using an over-dot to denote differentiation with respect to an affine parameter, which we identify as proper time $\tau$,
 \begin{eqnarray}
+\label{eq:E_orbit}
 E & = & A\dot{t} + \frac{2GJ}{\widetilde{r}} \sin^2\theta\dot{\phi}; \\
-L_z & = & \widetilde{r}^{\,2}\sin^2\theta\, \dot{\phi} - \frac{2GJ}{\widetilde{r}} \sin^2\theta\dot{t}b.
+L_z & = & \widetilde{r}^{\,2}\sin^2\theta\, \dot{\phi} - \frac{2GJ}{\widetilde{r}} \sin^2\theta\dot{t} .
+label{eq:L_orbit}
 \end{eqnarray}
 We will consider perturbations of circular-equatorial orbits; orbits such that $\dot{\widetilde{r}} = \ddot{\widetilde{r}} = \dot{\theta}= 0$ and $\theta = \pi/2$. The timelike geodesic equation can be written in the covariant form
 \begin{equation}
-\frac{\dd u_\mu}{\dd \tau} = \frac{1}{2} \left(\partial_\mu g_{\rho\sigma} \right) u^\rho u^\sigma .
+\frac{\dd u_\mu}{\dd \tau} = \frac{1}{2} \left(\partial_\mu g_{\rho\sigma} \right) u^\rho u^\sigma, 
 \end{equation}
-For a circular equatorial orbit, setting $\mu = \widetilde{r}$ gives the frequency of the orbit $\omega_0 = \dd\phi/\dd t$ as
+where $u^\mu$ is the 4-velocity. For a circular equatorial orbit, setting $\mu = \widetilde{r}$ gives the frequency of the orbit $\omega_0 = \dd\phi/\dd t$ as
 \begin{equation}
-\omega_0 = -\frac{GJ}{\widetilde{r}^{\,3}} \pm \frac{1}{2} \sqrt{\frac{2A'}{\widetilde{r}} + \left(\frac{2GJ}{\widetilde{r}^{\,3}}\right)^2}
+\omega_0 = -\frac{GJ}{\widetilde{r}^{\,3}} \pm \frac{1}{2} \sqrt{\frac{2A'}{\widetilde{r}} + \left(\frac{2GJ}{\widetilde{r}^{\,3}}\right)^2},
 \label{eq:omz}
 \end{equation}
-in which a dash denotes $\dd/\dd\widetilde{r}$ and the $+/-$ sign denotes prograde/retrograde orbits. The definition of proper time then gives
+in which a dash denotes $\dd/\dd\widetilde{r}$ and the $+/-$ sign denotes prograde/retrograde orbits. The definition of proper time gives
 \begin{equation}
-\dot{t}=\left(A + \frac{4GJ\omega_0}{\widetilde{r}} - \widetilde{r}^{\,2}\omega_0 \right)^{-1/2}
+\dot{t}=\left(A + \frac{4GJ\omega_0}{\widetilde{r}} - \widetilde{r}^{\,2}\omega_0^2 \right)^{-1/2}.
 \end{equation}
-from which we get $\dot{\phi} = \omega_0 \dot{t}$ and hence we have $\omega_0$, $E$ and $L_z$ in terms of $\widetilde{r}$. 
+We now have both $\dot{t}$ and $\dot{\phi} = \omega_0\dot{t}$ as functions of $\widetilde{r}$; substitution into \eqnref{E_orbit} and \eqnref{L_orbit} allows us to find the energy and angular momentum in terms of $\widetilde{r}$.
 
 %As a consequence of the spherical symmetry we can confine the motion to the equatorial plane $\theta = \pi/2$ without loss of generality. 
 From the Hamiltonian $\mathcal{H} = g_{\mu\nu}\dot{x}^\mu\dot{x}^\nu$ we can obtain the general equation of motion for massive particles, using the substitutions
@@ -749,7 +752,7 @@ From the Hamiltonian $\mathcal{H} = g_{\mu\nu}\dot{x}^\mu\dot{x}^\nu$ we can obt
 \dot{t} & = & \frac{Eg_{\phi\phi}+L_z g_{t\phi}}{g_{tt}g_{\phi\phi} -g_{t\phi}^2} = \frac{E}{A} -\frac{2GJ}{A\widetilde{r}^{\,3}}L_z, \\
 \dot{\phi} & = &  \frac{Eg_{t\phi}+L_z g_{tt}}{g_{t\phi}^2-g_{tt}g_{\phi\phi}} = \frac{2GJE}{A\widetilde{r}^{\,3}} + \frac{L_z}{\widetilde{r}^2 \sin^2\theta},
 \end{eqnarray}
-where the second equals sign in each case follows from linearising in $J$ as appropriate for the slow-rotation limit. With these replacements, the general timelike geodesic equation takes the form
+where the second equality in each case follows from linearising in $J$, as appropriate for the slow-rotation limit. With these replacements, the general timelike geodesic equation takes the form
 \begin{eqnarray}
 \dot{\widetilde{r}}^{\,2} + \frac{\widetilde{r}^{\,2}}{B} \dot{\theta}^2 & = & \frac{E^2}{AB} -\frac{4GJEL_z}{AB \widetilde{r}^{\,3}}- \recip{B}\left(1 + \frac{L_z^2}{\widetilde{r}^{\,2}\sin^2\theta}\right) \nonumber \\*
  & = & V(\widetilde{r},\theta,E,L_z).
@@ -769,22 +772,24 @@ where the second equals sign in each case follows from linearising in $J$ as app
 %0 = \frac{2L^2}{\widetilde{r}^{\,3}} - \frac{A'}{A}\left(1 + \frac{L^2}{\widetilde{r}^{\,2}}\right).
 %\end{equation}
 %Thus a circular orbit is defined by one of $\{E,L,\widetilde{r}\}$. We will consider a small perturbation to a circular orbit. Perturbations out of the plane just redefine the orbital plane; they are not of interest. A radial perturbation can be parameterized as
-To compute the epicyclic we imagine the orbit is perturbed by a small amount, while $E$ and $L_z$ are unchanged.\footnote{It is not possible for the orbit to be perturbed without changing the energy or angular momentum. However, these corrections are quadratic in the amplitude of the perturbation, and so we can ignore them at linear order.} For radial perturbations
+To compute the epicyclic we imagine the orbit is perturbed by a small amount, while $E$ and $L_z$ are unchanged.\footnote{It is not possible for the orbit to be perturbed without changing the energy or angular momentum. However, these corrections are quadratic in the amplitude of the perturbation, and so we can ignore them at linear order.} For radial perturbations $\widetilde{r} = \overline{r} + \delta$, where $\overline{r}$ is the radius of the unperturbed orbit, the orbit undergoes small oscillations with frequency
 \begin{equation}
-\widetilde{r} = \overline{r} + \delta,
+\Omega\sub{r}^2 = -\recip{2} \left. \partialdiff{^2 V}{\widetilde{r}^{\,2}}\right|_{\overline{r},\,\theta=\pi/2}.
 \end{equation}
-where $\overline{r}$ is the radius of the unperturbed orbit. If the perturbation is small the orbit undergoes small oscillations with frequency $\Omega_r^2 = -(1/2) (\partial^2 V/\partial \widetilde{r}^{\,2})|_{\overline{r},\theta=\pi/2}$. Small vertical perturbations $\theta=\pi/2 + \delta$ oscillate with frequency $\Omega_v^2 = -(1/2) (B(\overline{r})/\overline{r}^2) (\partial^2 V/\partial \widetilde{\theta}^2)|_{\overline{r},\theta=\pi/2}$.
+Small vertical perturbations $\theta = \pi/2 + \delta$ oscillate with frequency
+\begin{equation}
+\Omega\sub{v}^2 = -\recip{2} \frac{B(\overline{r}}{\overline{r}^2} \partialdiff{^2 V}{\theta^2}}\right|_{\overline{r},\,\theta=\pi/2}.
 
 We will denote $A(\overline{r}) = \overline{A}$, $B(\overline{r}) = \overline{B}$, $A'(\overline{r}) = \overline{A}'$, etc.; differentiating the potential from \eqnref{rdot} we find
 \begin{widetext}
 \begin{eqnarray}
 \dot{t}^2\Omega^2_r & = & -E^2 \left( \frac{\overline{A}'^2}{\overline{A}^3 \overline{B}} - \frac{\overline{A}''}{2\overline{A}^2\overline{B}} + \frac{\overline{A}'\overline{B}'}{\overline{A}^2\overline{B}^2} + \frac{\overline{B}'^2}{\overline{A}\,\overline{B}^3} - \frac{\overline{B}''}{2\overline{A}\,\overline{B}^2} \right) - \frac{\overline{B}''}{2\overline{B}^2} +  \frac{\overline{B}'^2}{\overline{B}^3} - L_z^2 \left(\frac{\overline{B}''}{2\overline{B}^2 \overline{r}^2} - \frac{\overline{B}'^2}{\overline{B}^3 \overline{r}^2} - \frac{2\overline{B}'}{\overline{B}^2 \overline{r}^3}-\frac{3}{\overline{B} \overline{r}^4} \right) \nonumber\\
 & & + \frac{4GJEL_z}{\widetilde{r}^{\,3}} \left[ \frac{\overline{A}'^2}{\overline{A}^3 \overline{B}} - \frac{\overline{A}''}{2\overline{A}^2\overline{B}} + \frac{\overline{A}'\overline{B}'}{\overline{A}^2\overline{B}^2} + \frac{\overline{B}'^2}{\overline{A}\,\overline{B}^3} - \frac{\overline{B}''}{2\overline{A}\,\overline{B}^2} +\frac{3}{\overline{r}}\left(\frac{\overline{A}'}{\overline{A}^2\overline{B}}+\frac{\overline{B}'}{\overline{A}\,\overline{B}^2}\right) +\frac{6}{\overline{A}\,\overline{B}\overline{r}^2}\right] \nonumber \\
-& = &  \frac{L_z^2}{\overline{r}^3\overline{B}}\left(\frac{\overline{A}''}{\overline{A}'} - \frac{2\overline{A}'}{\overline{A}} + \frac{3}{\overline{r}}\right) +\frac{6GJEL_z}{\overline{A}\,\overline{B} \overline{r}^4} \left(\frac{\overline{A}''}{\overline{A}'} + \frac{4}{\overline{r}}\right) \\
-\dot{t}\Omega_v & = & \frac{L_z}{\overline{r}^2}
+& = &  \frac{L_z^2}{\overline{r}^3\overline{B}}\left(\frac{\overline{A}''}{\overline{A}'} - \frac{2\overline{A}'}{\overline{A}} + \frac{3}{\overline{r}}\right) +\frac{6GJEL_z}{\overline{A}\,\overline{B} \overline{r}^4} \left(\frac{\overline{A}''}{\overline{A}'} + \frac{4}{\overline{r}}\right); \\
+\dot{t}\Omega\sub{v} & = & \frac{L_z}{\overline{r}^2}.
 \end{eqnarray}
 \end{widetext}
-This result holds for any metric of the general form \eqnref{Sph_sym}, subject to the slow-rotation condition $J \ll 1$, which we have used to linearise in $J$ at various stages.
+This result holds for any metric of the general form \eqnref{Sph_sym}, subject to the slow-rotation condition, which we have used to linearise in $J$ at various stages.
 %and retaining terms to first order
 %\begin{equation}
 %\ddot{\delta} = - \left[\frac{2\overline{A}^2L^2}{\overline{r}^3\overline{A}'\overline{B}}\left(\frac{\overline{A}''}{2\overline{A}^2} - \frac{{\overline{A}'}^2}{\overline{A}^3}\right) + \frac{3L^2}{\overline{r}^4\overline{B}}\right]\delta.
@@ -808,29 +813,19 @@ This result holds for any metric of the general form \eqnref{Sph_sym}, subject t
 %\end{equation}
 %The eccentricity is the small parameter $|e| = |\delta_0/\overline{r}| \ll 1$. To this accuracy one cannot distinguish between $a$ and the semilatus rectum $p = a(1 - e^2)$.
 
-Unless $\omega_0 = \Omega$ the elliptical motion will be asynchronous with the orbital motion: there will be precession of the periapsis. 
-%The orbital frequency is
-%\begin{equation}
-%\omega_0^2 = \frac{L^2}{\overline{r}^4}.
-%\end{equation}
-In one revolution the ellipse will precess about the focus by
-\begin{eqnarray}
-\varpi & = & \omega_0\left(\frac{2\pi}{\Omega} - \frac{2\pi}{\omega_0}\right) \nonumber \\*
- & = & 2\pi\left(\frac{\omega_0}{\Omega} - 1\right)
-\end{eqnarray}
-where $\omega_0$ is the frequency of the circular orbit, given in \eqnref{omz}. The precession is cumulative, so a small deviation may be measurable over sufficient time. We are interested in whether or not the deviation arising from the $f(R)$ correction would be observable. In principle, the deviations will be observable if the orbit looks sufficiently different from orbits in the Kerr metric. To quantify the amount of difference, we need to identify orbits between the two spacetimes, and for circular equatorial orbits there is a natural way to do this, by identifying orbits with the same frequency, $\omega_0$, since this is a gauge-invariant observable quantity. The quantity
+\subsubsection{Gravitational Waves}
+
+We are interested in whether or not the deviation arising from the $f(R)$ correction would be observable. In principle, the deviations will be observable if the orbit looks sufficiently different from orbits in the Kerr metric. To quantify the amount of difference, we need to identify orbits between the two spacetimes, and for circular equatorial orbits there is a natural way to do this: by identifying orbits with the same frequency $\omega_0$, since this is a gauge-invariant observable quantity. The quantity
 \begin{equation}
 \Delta(\omega_0,\Upsilon) = \Omega(\omega_0,\Upsilon)-\Omega(\omega_0,\Upsilon \rightarrow \infty)
 \end{equation}
-characterises the rate of increase in the phase difference between the $f(R)$ trajectory and the Kerr trajectory with the same frequency and spin parameter.\footnote{By comparing the trajectory to the $\Upsilon \rightarrow\infty$ limit of the trajectory rather than the exact Kerr result ensures that we are taking the same slow rotation limit in both cases, and will not be dominated by $O(J^2)$ corrections.} A physical effect is in principle observable if it leads to a significant phase shift in a gravitational waveform over the length of an observation. Thus, a simple criterion for the $f(R)$ theory to be distinguishable from GR would be that $\Delta T\sub{obs} > 2\pi$, for observation period $T\sub{obs}$. This is a significant oversimplification since we have assumed that only the orbital frequency has been matched to a Kerr value, while small changes in the other parameters such as the black hole mass and spin, the orbital eccentricity and inclination, and so on, could mimic the effects of an $f(R)$ deviation. On the other hand, we are also keeping the orbital frequency fixed whereas we will observe inspirals, and this tends to break the parameter degeneracies. Since we are interested in extreme-mass-ratio systems, for which the inspiral proceeds slowly, it is likely that we are being over-optimistic so these results can be considered upper bounds on what could be measureable. A fuller analysis accounting for parameter correlations and inspiral is beyond the scope of this paper.
+characterises the rate of increase in the phase difference between the $f(R)$ trajectory and the Kerr trajectory with the same frequency and spin parameter.\footnote{By comparing the trajectory to the $\Upsilon \rightarrow\infty$ limit of the trajectory rather than the exact Kerr result ensures that we are taking the same slow rotation limit in both cases, and will not be dominated by $\order{J^2}$ corrections.} A physical effect is in principle observable if it leads to a significant phase shift in a gravitational waveform over the length of an observation. Thus, a simple criterion for the $f(R)$ theory to be distinguishable from GR would be that $\Delta T\sub{obs} > 2\pi$, for observation period $T\sub{obs}$. This is a significant oversimplification since we have assumed that only the orbital frequency has been matched to a Kerr value, while small changes in the other parameters such as the black hole mass and spin, the orbital eccentricity and inclination, and so on, could mimic the effects of an $f(R)$ deviation. On the other hand, we are also keeping the orbital frequency fixed whereas we will observe inspirals, and this tends to break the parameter degeneracies. Since we are interested in extreme-mass-ratio systems, for which the inspiral proceeds slowly, it is likely that we are being over-optimistic so these results can be considered upper bounds on what could be measurable. A fuller analysis accounting for parameter correlations and inspiral is beyond the scope of this paper.
 
 The timescale of the systems we are considering is set by the black hole mass, and the quantities $M\omega_0$ and $M\Delta$ are mass-independent. A duration of a typical EMRI observation with LISA will be of the order of a year, and so the criterion for detectability becomes
 \begin{equation}
 GM\Delta = 9.8\times10^{-7} \left(\frac{M}{10^6 M_{\odot}}\right) \left(\frac{\mathrm{yr}}{T\sub{obs}}\right). \label{eq:detcrit}
 \end{equation}
-In \figref{epifig} we shows the region of $\Upsilon$-$\omega_0$ parameter space in which $f(R)$ gravity could be distinguished from GR, as defined by this criterion. Each curve represents a particular choice for $GM\Delta$, and the region below the curve is detectable' in an observation characterised by that choice for $M\Delta$. Equation~\eqnref{detcrit} indicates that the curve $GM\Delta = 10^{-6}$ is what would be achieved in a 1 year observation for a $10^6M_\odot$ mass black hole. The curves $GM\Delta = 10^{-5}/10^{-7}$ are the corresponding results for a $10^7/10^5M_\odot$ mass black hole, while the curve $GM\Delta = 3\times10^{-7}$ represents what would be achieved in a 3 year observation and so on. We show results for two different choices of spin, $a=0$ and $a=0.5$, and it is clear that there is not too much difference between the two, although the vertical epicyclic frequency is only measurable for $a \neq 0$ since this coincides with the orbital frequency for $a=0$ due to spherical symmetry. The results for the radial epicyclic frequency do not differ hugely between $a=0$ and $a=0.5$ in this weak field metric approximation. We note also that we show results only for prograde orbits. For $a \neq 0$, we can also compute results for retrograde orbits, and these differ from the prograde results but only by a small amount which is almost indistinguishable on the scale of these plots.
-
-Our conclusion from \figref{epifig} is that, broadly speaking, we would be able to distinguish spacetimes with $GM\Upsilon \lesssim 1 $, for a $10^6 M_\odot$ black hole this corresponds to $\Upsilon \lesssim 10^{-9}\units{m^{-1}}$. Somewhat larger values are accessible at higher frequencies, but this conclusion must be treated somewhat cautiously, as the inspiral would pass through that region fairly quickly, and those orbits correspond to relatively small values of the orbital radius at which the approximations that we made deriving the weak-field metric begin to break down. For this criterion, the radial epicyclic frequency is always a more powerful probe than the vertical epicyclic frequency. This is to be expected, since the latter is generally smaller in magnitude and so fewer cycles accumulate over a typical observation.
+In \figref{epifig} we shows the region of $\Upsilon$-$\omega_0$ parameter space in which $f(R)$ gravity could be distinguished from GR, as defined by this criterion. Each curve represents a particular choice for $GM\Delta$, and the region below the curve is detectable' in an observation characterised by that choice for $M\Delta$.
 \begin{figure*}[htbp]
 \begin{tabular}{cc}
 \includegraphics[width=0.5\textwidth]{EpicycleConstraintsa0}&
@@ -838,6 +833,9 @@ Our conclusion from \figref{epifig} is that, broadly speaking, we would be able 
 \end{tabular}
 \caption{\label{fig:epifig}Region of parameter space in which $f(R)$ theories can be distinguished from GR when the central black hole has spin $a=0$ (left panel) or $a=0.5$ (right panel). Each curve corresponds to a particular specification of the detectability criterion given in \eqnref{detcrit} in the text, as identified in the key. Dashed lines correspond to measurements of the vertical epicyclic frequency, while solid lines represent measurements of the radial epicyclic frequency. The region below the curve could be distinguishable in a LISA observation with that detectability value.}
 \end{figure*}
+Equation~\eqnref{detcrit} indicates that the curve $GM\Delta = 10^{-6}$ is what would be achieved in a 1 year observation for a $10^6M_\odot$ mass black hole. The curves $GM\Delta = 10^{-5}/10^{-7}$ are the corresponding results for a $10^7/10^5M_\odot$ mass black hole, while the curve $GM\Delta = 3\times10^{-7}$ represents what would be achieved in a 3 year observation and so on. We show results for two different choices of spin, $a=0$ and $a=0.5$, and it is clear that there is not too much difference between the two, although the vertical epicyclic frequency is only measurable for $a \neq 0$ since this coincides with the orbital frequency for $a=0$ due to spherical symmetry. The results for the radial epicyclic frequency do not differ hugely between $a=0$ and $a=0.5$ in this weak field metric approximation. We note also that we show results only for prograde orbits. For $a \neq 0$, we can also compute results for retrograde orbits, and these differ from the prograde results but only by a small amount which is almost indistinguishable on the scale of these plots.
+
+Our conclusion from \figref{epifig} is that, broadly speaking, we would be able to distinguish spacetimes with $GM\Upsilon \lesssim 1 $, for a $10^6 M_\odot$ black hole this corresponds to $\Upsilon \lesssim 10^{-9}\units{m^{-1}}$. Somewhat larger values are accessible at higher frequencies, but this conclusion must be treated somewhat cautiously, as the inspiral would pass through that region fairly quickly, and those orbits correspond to relatively small values of the orbital radius at which the approximations that we made deriving the weak-field metric begin to break down. For this criterion, the radial epicyclic frequency is always a more powerful probe than the vertical epicyclic frequency. This is to be expected, since the latter is generally smaller in magnitude and so fewer cycles accumulate over a typical observation.
 
 %For the $f(R)$ metric defined by equations \eqnref{A_metric} and \eqnref{B_metric} the epicyclic frequency is
 %\begin{equation}
@@ -857,9 +855,14 @@ Our conclusion from \figref{epifig} is that, broadly speaking, we would be able 
 
 \subsubsection{Planetary precessions}
 
-We can also apply the precession formula to the classic test of planetary precession in the solar system. Taking the non-rotating limit, the epicyclic frequency is
+We can also use the epicyclic frequencies for the classic test of planetary precession in the solar system. Unless $\omega_0 = \Omega$ the epicyclic motion will be asynchronous with the orbital motion. We see that this is the case for radial motion: there will be precession of the periapsis. In one revolution the ellipse will precess about the focus by
+\begin{eqnarray}
+\varpi & = & \omega_0\left(\frac{2\pi}{\Omega\sub{r}} - \frac{2\pi}{\omega_0}\right) \nonumber \\*
+ & = & 2\pi\left(\frac{\omega_0}{\Omega\sub{r}} - 1\right)
+\end{eqnarray}
+where $\omega_0$ is the frequency of the circular orbit, given in \eqnref{omz}. The precession is cumulative, so a small deviation may be measurable over sufficient time. Taking the non-rotating limit, the epicyclic frequency is
 \begin{equation}
-\Omega^2 = \omega_0^2 \left[1 - \frac{3r\sub{S}}{\overline{r}} - \zeta(\Upsilon,r\sub{S},\overline{r})\right],
+\Omega\sub{r}^2 = \omega_0^2 \left[1 - \frac{3r\sub{S}}{\overline{r}} - \zeta(\Upsilon,r\sub{S},\overline{r})\right],
 \end{equation}
 defining the function
 \begin{eqnarray}
@@ -919,7 +922,6 @@ Pluto & 0.26 & 49000 & 0.25 & 55000 \\
 \caption{Bounds calculated using uncertainties in planetary perihelion precession rates. $\Upsilon$ must be greater than or equal to the tabulated value, $|a_2|$ must be less than or equal to the tabulated value.\label{tab:Constraint}}
 \end{table}
 \endgroup
-
 The tightest constraint is obtained from the orbit of Mercury. Adopting a value of $\Upsilon \geq 5.2 \times 10^{-10}\units{m^{-1}}$, the cutoff frequency for the Ricci mode is $\geq 0.16\units{s^{-1}}$. Therefore it could lie in the upper range of the LISA frequency band~\cite{Bender1998,Danzmann2003} or in the LIGO/Virgo frequency range~\cite{Abramovici1992, Abbott2009, Accadia2010}. However, as we will see in \secref{Fifth}, it is possible to place stronger constraints on $\Upsilon$ using laboratory experiments.
 
 \subsection{Fifth-Force Tests\label{sec:Fifth}}
@@ -948,7 +950,7 @@ Gravitational radiation is not the only way to test $f(R)$ theory. From lineariz
 
 Using these weak-field results it is possible to constrain the value of $a_2$. The strongest constraints come from fifth-force tests. Based upon the results of E\"ot-Wash experiment, we find that $|a_2| \lesssim 2 \times 10^{-9}\units{m^2}$. In this case we do not expect the propagating Ricci mode to be excited by astrophysical systems as the cutoff frequency is too high. Even in the absence of the Ricci mode, it may still be possible to use GWs to constrain $f(R)$-gravity through the dependence of the transverse polarization's dependence upon the Ricci scalar.
 
-We have also derived the epicyclic frequency for near circular orbits. Some of the estimated deviations from GR precession rates are negative, which cannot be achieved with $f(R)$ corrections. Since all of the deviations are consistent with zero, we cannot use these as proof against $f(R)$. The bound obtain from precession rates is $|a_2| \lesssim 1.2 \times 10^{18}\units{m^2}$. Although this bound is much larger than its fifth-force partner, it may still may be applicable: it is possible that $f(R)$-gravity is not universal, that it is different in different regions of space. For example, it is possible that $f(R)$-gravity is modified in the presence of matter via the chameleon mechanism~\cite{Khoury2004, Khoury2004a}. In metric $f(R)$ this corresponds to a nonlinear effect arising from a large departure of the Ricci scalar from its background value~\cite{DeFelice2010}. The mass of the effective scalar degree of freedom then depends upon the density of its environment. In a region of high matter density, such as the Earth, the deviations from standard gravity would be exponentially suppressed due to a large effective $\Upsilon$; while on cosmological scales, where the density is low, the scalar would have a small $\Upsilon$, perhaps of the order $H_0/c$~\cite{Khoury2004, Khoury2004a}. The chameleon mechanism allows $f(R)$ gravity to pass laboratory or solar system tests while remaining of interest for cosmology. In the context of gravitational radiation, this would mean that the Ricci scalar mode could freely propagate on cosmological scales~\cite{Corda2009}. Unfortunately, since the chameleon mechanism suppresses the effects of $f(R)$ in the presence of matter, this mode would have to be excited by something other than the movement of matter. Additionally since electromagnetic radiation and the standard transverse polarizations of gravitational radiation have a traceless energy-momentum tensor, they cannot excite the Ricci mode.\footnote{The contribution to the gravitational energy-momentum pseudotensor from a propagating Ricci mode does have a non-zero trace, see \eqnref{Pseudotensor}.} To be able to detect the Ricci mode we must observe it well away from any matter, which would cause it to become evanescent: a spaceborne detector such as LISA would be our only hope.
+We have also derived the epicyclic frequency for near circular orbits. Some of the estimated deviations from GR precession rates are negative, which cannot be achieved with $f(R)$ corrections. Since all of the deviations are consistent with zero, we cannot use these as proof against $f(R)$. The bound obtain from precession rates is $|a_2| \lesssim 1.2 \times 10^{18}\units{m^2}$. Although this bound is much larger than its fifth-force partner, it may still may be applicable: it is possible that $f(R)$-gravity is not universal, that it is different in different regions of space. For example, it is possible that $f(R)$-gravity is modified in the presence of matter via the chameleon mechanism~\cite{Khoury2004, Khoury2004a}. In metric $f(R)$ this corresponds to a nonlinear effect arising from a large departure of the Ricci scalar from its background value~\cite{DeFelice2010}. The mass of the effective scalar degree of freedom then depends upon the density of its environment. In a region of high matter density, such as the Earth, the deviations from standard gravity would be exponentially suppressed due to a large effective $\Upsilon$; while on cosmological scales, where the density is low, the scalar would have a small $\Upsilon$, perhaps of the order $H_0/c$~\cite{Khoury2004, Khoury2004a}. The chameleon mechanism allows $f(R)$ gravity to pass laboratory or solar system tests while remaining of interest for cosmology. In the context of gravitational radiation, this would mean that the Ricci scalar mode could freely propagate on cosmological scales~\cite{Corda2009}. Unfortunately, since the chameleon mechanism suppresses the effects of $f(R)$ in the presence of matter, this mode would have to be excited by something other than the movement of matter. Additionally since electromagnetic radiation it cannot excite the Ricci mode.\footnote{The standard transverse polarizations of gravitational radiation an energy-momentum tensor that averages to be traceless, although this may not be the case locally~\cite{Butcher2010}; the contribution to the gravitational energy-momentum pseudotensor from a propagating Ricci mode does have a non-zero trace, see \eqnref{Pseudotensor}. In any case it is doubtful that gravitational energy-momentum could act as a source for detectable radiation.} To be able to detect the Ricci mode we must observe it well away from any matter, which would cause it to become evanescent: a spaceborne detector such as LISA would be our only hope.
 
 Alternatively, it may be that $f(R)$ is just an approximate effective theory, then the range of a particular parametrization's applicability could be limited to a specific domain. For example, we could imagine that the effective theory in the vicinity of a massive BH where the curvature is large is different from in the solar system where curvature is small, or $f(R)$ could evolve with cosmological epoch so that it varies with redshift. Since we have only discussed tests in the solar system we must be cautious with the range of applicability of our results.
 
