@@ -1,7 +1,7 @@
-set term postscript color enhanced 20 'Times'
+set term postscript color enhanced 20
 set log xy
 set xrange [0.0001:0.1]
-set ylabel "GM{/Symbol U}"
+set ylabel '{/CMMI10 x}'
 set xlabel '{/CMR10 \242}'
 set key 0.0004, 7
 set output "EpicycleConstraintsa0.eps"
