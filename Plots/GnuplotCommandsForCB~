@@ -1,0 +1,10 @@
+set key top left
+set term postscript color enhanced 20
+set ylabel "GM{/Symbol U}"
+set xlabel "GM{/Symbol w}_0"
+set output "EpicycleConstraintsa0.eps"
+plot "t3em8a0ProRad" u 2:3 t "M{/Symbol D}=3e^{-8}" w l lt 1 lc 1 lw 4, "t1em7a0ProRad" u 2:3 t "M{/Symbol D}=1e^{-7}" w l lt 1 lc 2 lw 4, "t3em7a0ProRad" u 2:3 t "M{/Symbol D}=3e^{-7}" w l lt 1 lc 3 lw 4, "t1em6a0ProRad" u 2:3 t "M{/Symbol D}=1e^{-6}" w l lt 1 lc 4 lw 4, "t3em6a0ProRad" u 2:3 t "M{/Symbol D}=3e^{-6}" w l lt 1 lc 5 lw 4, "t1em5a0ProRad" u 2:3 t "M{/Symbol D}=1e^{-5}" w l lt 1 lc 6 lw 4
+set output "EpicycleConstraintsa05.eps"
+plot "t3em8a05ProRad" u 2:3 t "M{/Symbol D}=3e^{-8}" w l lt 1 lc 1 lw 4, "t1em7a05ProRad" u 2:3 t "M{/Symbol D}=1e^{-7}" w l lt 1 lc 2 lw 4, "t3em7a05ProRad" u 2:3 t "M{/Symbol D}=3e^{-7}" w l lt 1 lc 3 lw 4, "t1em6a05ProRad" u 2:3 t "M{/Symbol D}=1e^{-6}" w l lt 1 lc 4 lw 4, "t3em6a05ProRad" u 2:3 t "M{/Symbol D}=3e^{-6}" w l lt 1 lc 5 lw 4, "t1em5a05ProRad" u 2:3 t "M{/Symbol D}=1e^{-5}" w l lt 1 lc 6 lw 4, "t3em8a05ProVert" u 2:3 t "" w l lt 2 lc 1 lw 4, "t1em7a05ProVert" u 2:3 t "" w l lt 2 lc 2 lw 4, "t3em7a05ProVert" u 2:3 t "" w l lt 2 lc 3 lw 4, "t1em6a05ProVert" u 2:3 t "" w l lt 2 lc 4 lw 4, "t3em6a05ProVert" u 2:3 t "" w l lt 2 lc 5 lw 4, "t1em5a05ProVert" u 2:3 t "" w l lt 2 lc 6 lw 4
+
+

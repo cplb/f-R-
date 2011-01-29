@@ -1,0 +1,8 @@
+set term postscript color enhanced 20 'Times'
+set log xy
+set xrange [0.0001:0.1]
+set ylabel "GM{/Symbol U}"
+set xlabel '{/CMR10 \242}'
+set key 0.0004, 7
+set output "EpicycleConstraintsa0.eps"
+plot "t3em8a0ProRad" u 2:3 t "GM {/MSBM10 \175 } =3e^{-8}" w l lt 1 lw 4, "t1em7a0ProRad" u 2:3 t "GM{/Symbol D}=1e^{-7}" w l lt 1 lw 4, "t3em7a0ProRad" u 2:3 t "GM{/Symbol D}=3e^{-7}" w l lt 1 lw 4, "t1em6a0ProRad" u 2:3 t "GM{/Symbol D}=1e^{-6}" w l lt 1 lw 4, "t3em6a0ProRad" u 2:3 t "GM{/Symbol D}=3e^{-6}" w l lt 1 lw 4, "t1em5a0ProRad" u 2:3 t "GM{/Symbol D}=1e^{-5}" w l lt 1 lw 4

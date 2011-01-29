@@ -1,0 +1,9 @@
+set term postscript eps enhanced color "Times" 14
+set output "3.eps"
+
+set style line 1 linetype 1 linecolor rgb "#000000" lw 1
+set style line 2 linetype 2 linecolor rgb "#222222" lw 1
+
+plot \
+  "/tmp/gnuplot.dat" using 1:2 title "data 1" with points ls 1, \
+  "/tmp/gnuplot.dat" using 1:3 title "data 2" with points ls 2
