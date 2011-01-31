@@ -1,8 +1,18 @@
 set term postscript color enhanced 20 fontfile './pfa/cmmi10.pfa' fontfile './pfa/cmr10.pfa' fontfile './pfa/cmsy10.pfa'
+
 set ylabel "{/CMMI10 GM}{/CMR10 \250}"
 set xlabel "{/CMMI10 GM\041}_{/CMI10 \060}"
-set key 0.002, 7
+
 set log xy
+
+set xrange [0.0001:0.1]
+set yrange [0.01:10]
+
+set xtics ("{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \064}}" 0.0001, "{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \063}}" 0.001, "{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \062}}" 0.01, "{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \061}}" 0.1)
+set ytics ("{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \062}}" 0.01, "{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \061}}" 0.1, "{/CMR10 10}^{{/CMR10 \060}}" 1, "{/CMR10 10}^{{/CMR10 \061}}" 10)
+
+set key 0.002, 7
+
 set style line 1 lt 1 lc rgb "#D55E00" lw 4
 set style line 2 lt 1 lc rgb "#E69F00" lw 3
 set style line 3 lt 1 lc rgb "#009E73" lw 2
@@ -15,7 +25,9 @@ set style line 9 lt 2 lc rgb "#009E73" lw 2
 set style line 10 lt 2 lc rgb "#56B4E9" lw 4
 set style line 11 lt 2 lc rgb "#0072B2" lw 3
 set style line 12 lt 2 lc rgb "#CC79A7" lw 2
+
 set output "EpicycleConstraintsa0.eps"
 plot "t3em8a0ProRad" u 2:3 t "{/CMMI10 GM}{/CMR10 \242} {/CMR10 \075} {/CMR10 \063}{/CMSY10 \243}{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \070}}" w l ls 1, "t1em7a0ProRad" u 2:3 t "{/CMMI10 GM}{/CMR10 \242} {/CMR10 \075} {/CMR10 \061}{/CMSY10 \243}{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \067}}" w l ls 2, "t3em7a0ProRad" u 2:3 t "{/CMMI10 GM}{/CMR10 \242} {/CMR10 \075} {/CMR10 \063}{/CMSY10 \243}{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \067}}" w l ls 3, "t1em6a0ProRad" u 2:3 t "{/CMMI10 GM}{/CMR10 \242} {/CMR10 \075} {/CMR10 \061}{/CMSY10 \243}{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \066}}" w l ls 4, "t3em6a0ProRad" u 2:3 t "{/CMMI10 GM}{/CMR10 \242} {/CMR10 \075} {/CMR10 \063}{/CMSY10 \243}{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \066}}" w l ls 5, "t1em5a0ProRad" u 2:3 t "{/CMMI10 GM}{/CMR10 \242} {/CMR10 \075} {/CMR10 \061}{/CMSY10 \243}{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \065}}" w l ls 6
+
 set output "EpicycleConstraintsa05.eps"
 plot "t3em8a05ProRad" u 2:3 t "{/CMMI10 GM}{/CMR10 \242} {/CMR10 \075} {/CMR10 \063}{/CMSY10 \243}{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \070}}" w l ls 1, "t1em7a05ProRad" u 2:3 t "{/CMMI10 GM}{/CMR10 \242} {/CMR10 \075} {/CMR10 \061}{/CMSY10 \243}{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \067}}" w l ls 2, "t3em7a05ProRad" u 2:3 t "{/CMMI10 GM}{/CMR10 \242} {/CMR10 \075} {/CMR10 \063}{/CMSY10 \243}{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \067}}" w l ls 3, "t1em6a05ProRad" u 2:3 t "{/CMMI10 GM}{/CMR10 \242} {/CMR10 \075} {/CMR10 \061}{/CMSY10 \243}{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \066}}" w l ls 4, "t3em6a05ProRad" u 2:3 t "{/CMMI10 GM}{/CMR10 \242} {/CMR10 \075} {/CMR10 \063}{/CMSY10 \243}{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \066}}" w l ls 5, "t1em5a05ProRad" u 2:3 t "{/CMMI10 GM}{/CMR10 \242} {/CMR10 \075} {/CMR10 \061}{/CMSY10 \243}{/CMR10 10}^{{/CMSY10 \241}{/CMR10 \065}}" w l ls 6, "t3em8a05ProVert" u 2:3 t "" w l ls 7, "t1em7a05ProVert" u 2:3 t "" w l ls 8, "t3em7a05ProVert" u 2:3 t "" w l ls 9, "t1em6a05ProVert" u 2:3 t "" w l ls 10, "t3em6a05ProVert" u 2:3 t "" w l ls 11, "t1em5a05ProVert" u 2:3 t "" w l ls 12
