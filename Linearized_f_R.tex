@@ -694,23 +694,23 @@ where the second equality in each case follows from linearizing in $J$, as appro
 \end{eqnarray}
 To compute the epicyclic frequency we imagine the orbit is perturbed by a small amount, while $E$ and $L_z$ are unchanged.\footnote{It is not possible for the orbit to be perturbed without changing the energy or angular momentum. However, these corrections are quadratic in the amplitude of the perturbation, and so we can ignore them at linear order.} For radial perturbations $\widetilde{r} = \overline{r}(1 + \delta)$, where $\overline{r}$ is the radius of the unperturbed orbit, the orbit undergoes small oscillations with frequency
 \begin{eqnarray}
-\Omega\sub{r}^2 & = & -\recip{2} \left. \partialdiff{^2 V}{\widetilde{r}^{\,2}}\right|_{\overline{r},\,\theta=\pi/2\,}.\\
+\dot{t}^2\Omega\sub{r}^2 & = & -\recip{2} \left. \partialdiff{^2 V}{\widetilde{r}^{\,2}}\right|_{\overline{r},\,\theta=\pi/2\,}.\\
  & & \vphantom{odd} \nonumber
 \end{eqnarray}
 Small vertical perturbations $\theta = \pi/2 + \delta$ oscillate with frequency
 \begin{equation}
-\Omega\sub{v}^2 = -\recip{2} \frac{B(\overline{r})}{\overline{r}^2} \left. \partialdiff{^2 V}{\theta^2}\right|_{\overline{r},\,\theta=\pi/2\,}.
+\dot{t}^2\Omega\sub{v}^2 = -\recip{2} \frac{B(\overline{r})}{\overline{r}^2} \left. \partialdiff{^2 V}{\theta^2}\right|_{\overline{r},\,\theta=\pi/2\,}.
 \end{equation}
 We will denote $A(\overline{r}) \equiv \overline{A}$, $B(\overline{r}) \equiv \overline{B}$, $A'(\overline{r}) \equiv \overline{A}'$, etc.; differentiating the potential from \eqnref{rdot} we find
 \begin{widetext}
 \begin{eqnarray}
-\dot{t}^2\Omega\sub{r}^2 & = & -E^2 \left( \frac{\overline{A}'^2}{\overline{A}^3 \overline{B}} - \frac{\overline{A}''}{2\overline{A}^2\overline{B}} + \frac{\overline{A}'\overline{B}'}{\overline{A}^2\overline{B}^2} + \frac{\overline{B}'^2}{\overline{A}\,\overline{B}^3} - \frac{\overline{B}''}{2\overline{A}\,\overline{B}^2} \right) - \frac{\overline{B}''}{2\overline{B}^2} +  \frac{\overline{B}'^2}{\overline{B}^3} - L_z^2 \left(\frac{\overline{B}''}{2\overline{B}^2 \overline{r}^2} - \frac{\overline{B}'^2}{\overline{B}^3 \overline{r}^2} - \frac{2\overline{B}'}{\overline{B}^2 \overline{r}^3}-\frac{3}{\overline{B} \overline{r}^4} \right) \nonumber\\
-& & + \frac{4GJEL_z}{\widetilde{r}^{\,3}} \left[ \frac{\overline{A}'^2}{\overline{A}^3 \overline{B}} - \frac{\overline{A}''}{2\overline{A}^2\overline{B}} + \frac{\overline{A}'\overline{B}'}{\overline{A}^2\overline{B}^2} + \frac{\overline{B}'^2}{\overline{A}\,\overline{B}^3} - \frac{\overline{B}''}{2\overline{A}\,\overline{B}^2} +\frac{3}{\overline{r}}\left(\frac{\overline{A}'}{\overline{A}^2\overline{B}}+\frac{\overline{B}'}{\overline{A}\,\overline{B}^2}\right) +\frac{6}{\overline{A}\,\overline{B}\overline{r}^2}\right] \nonumber \\
+\dot{t}^2\Omega\sub{r}^2 & = & -E^2 \left( \frac{\overline{A}'^2}{\overline{A}^3 \overline{B}} - \frac{\overline{A}''}{2\overline{A}^2\overline{B}} + \frac{\overline{A}'\overline{B}'}{\overline{A}^2\overline{B}^2} + \frac{\overline{B}'^2}{\overline{A}\,\overline{B}^3} - \frac{\overline{B}''}{2\overline{A}\,\overline{B}^2} \right) - \frac{\overline{B}''}{2\overline{B}^2} +  \frac{\overline{B}'^2}{\overline{B}^3} - L_z^2 \left(\frac{\overline{B}''}{2\overline{B}^2 \overline{r}^2} - \frac{\overline{B}'^2}{\overline{B}^3 \overline{r}^2} - \frac{2\overline{B}'}{\overline{B}^2 \overline{r}^3}-\frac{3}{\overline{B} \overline{r}^4} \right) \nonumber \\
+& & + \frac{4GJEL_z}{\overline{r}^{\,3}} \left[ \frac{\overline{A}'^2}{\overline{A}^3 \overline{B}} - \frac{\overline{A}''}{2\overline{A}^2\overline{B}} + \frac{\overline{A}'\overline{B}'}{\overline{A}^2\overline{B}^2} + \frac{\overline{B}'^2}{\overline{A}\,\overline{B}^3} - \frac{\overline{B}''}{2\overline{A}\,\overline{B}^2} +\frac{3}{\overline{r}}\left(\frac{\overline{A}'}{\overline{A}^2\overline{B}}+\frac{\overline{B}'}{\overline{A}\,\overline{B}^2}\right) +\frac{6}{\overline{A}\,\overline{B}\overline{r}^2}\right] \label{eq:long_epi} \\
 & = &  \frac{L_z^2}{\overline{r}^3\overline{B}}\left(\frac{\overline{A}''}{\overline{A}'} - \frac{2\overline{A}'}{\overline{A}} + \frac{3}{\overline{r}}\right) +\frac{6GJEL_z}{\overline{A}\,\overline{B} \overline{r}^4} \left(\frac{\overline{A}''}{\overline{A}'} + \frac{4}{\overline{r}}\right); \\
 \dot{t}\Omega\sub{v} & = & \frac{L_z}{\overline{r}^2}.
 \end{eqnarray}
 \end{widetext}
-This result holds for any metric of the general form \eqnref{Sph_sym}, subject to the slow-rotation condition, which we have used to linearize in $J$ at various stages.
+To simplify \eqnref{long_epi} we have used conditions imposed for setting $V$ and $\partial V/\partial \widetilde{r}$ equal to zero for circular, equatorial orbits. These results hold for any metric of the general form \eqnref{Sph_sym}, subject to the slow-rotation condition, which we have used to linearize in $J$ at various stages.
 
 \subsection{Gravitational Wave Constraints}
 
