@@ -1,0 +1,67 @@
+Title
+
+Hyphenate "f(R)-gravity". This is consistent with the body text, and clarifies that it is the gravity that is linearized, not the function f(R).
+
+Abstract
+
+Change "These demonstrate that Kerr (or Schwarzschild) black holes do not exist in $f(R)$-gravity" to "These are distinct from the equivalent Kerr (or Schwarzschild) forms" to defer discussion of the implications of this difference to the main body of the text where we may expand upon it more carefully.
+
+Add clarification "assuming that the weak-field metric of the black hole coincides with that of a point mass" to the LISA bound to make explicit the caveat attached to this bound.
+
+I. Introduction
+
+Second paragraph p2: Include specific reference to f(R) in "Certain alternative theories of gravity, including $f(R)$, do admit the Kerr metric as a solution... "
+
+Second paragraph, right column p2: Change "by replacing R" to "by replacing the Ricci scalar R" to introduce the variable R.
+
+Middle of right column p2: Include clarification of the spacetime used for LISA constraints: "... the $f(R)$ spacetime exterior to massive objects and, assuming this also describes the weak-field external to a BH, we ...".
+
+same paragraph: Change "LISA will place" to "LISA could place".
+
+Penultimate paragraph p2: Insert "necessarily" into "We will see ... this is not necessarily the metric that describes the exterior of collapsed objects" to reflect the absence of a formal uniqueness proof later on in the text.
+
+III. Linearized theory
+
+Middle of right column p5: Linking line of text between equations (37) and (38) is changed to make it more relevant for section V. Subsequent references to (37) are changed to (38), correcting a typo.
+
+IV. Gravitational radiation
+
+Near bottom of left column on p6: Add reference to Corda 2009, which discusses detection of gravitational waves with additional longitudinal components.
+
+V. Energy-momentum Tensor
+
+Bottom right column p8: Change "cut off" to "cutoff".
+
+Near end of p8: Add citation to Stein 2011 to "These results do not depend upon a3 or higher order coefficients". This is already cited elsewhere in the section, however they do explicitly make an analogous point to this.
+
+VI. A. The Newtonian Limit
+
+Several changes are made here to clarify the distinction between an astrophysical black hole, being the physical object that results from gravitational collapse and general black hole solutions which solve the field equations. These are:
+
+Near the end of p9: To delete the sentence "Therefore Schwarzschild BHs... ". This will be explained more thoroughly in a following paragraph. The citation to Chiba is moved to the preceding sentence.
+
+To move the paragraph starting "It has been suggested... " to the end of the subsection. We believe that this improves the flow of the section: all the solutions are presented together, and then discussed. This paragraph is expanded to elucidate our arguments. A footnote is added to include reference to literature on Brans-Dicke theory: these were not previously included, as they are not directly applicable, however they may be of interest for readers wishing to learn more about the points we discuss.
+
+Similarly the paragraph "Solving the full field equations... " is moved toward the end of the subsection.
+
+Middle of left column p10: Additional citations are included after "Birkhoff's theorem no longer applies": these (save one) are cited elsewhere in this subsection, but are collected together here for ease of reference. The exception is Clifton 2006 which was previously overlooked, it does not contain any material relevant to this point not found in the other references, but does include a clear exposition.
+
+Final paragraph: Additional sentences are added to explain  what we shall investigate in the following section, and the full usefulness of our metrics in any eventuality.
+
+VII. A. Gravitational Wave Constraints
+
+Second sentence of the subsection: A footnote is added to explicitly explain that we are assuming the results of section VI. are applicable.
+
+IX. Summary & Conclusions
+
+Second paragraph p16: A caveat is added explaining that we have assuming our result from section VI. is applicable in deriving the bound in section VII. A., that is our weak-field metric is a reasonable approximation to the astrophysical black hole solution.
+
+Near the end of the same paragraph: Add a footnote to reiterate the above assumption and highlight that the Solar System bound is not subject to this, and so is valid in all cases.
+
+Awknowledgments
+
+We thank colleagues who made some comments on the previous version of our work.
+
+Bibliography
+
+Update details for Stein 2011 from arXiv reference to published version (PRD 28 March 2011).
