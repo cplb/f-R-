@@ -12,13 +12,14 @@ I. Introduction
 
 Second paragraph p2: Include specific reference to f(R) in "Certain alternative theories of gravity, including $f(R)$, do admit the Kerr metric as a solution... "
 
-Second paragraph, right column p2: Change "by replacing R" to "by replacing the Ricci scalar R" to introduce the variable R.
+Same paragraph, right column p2: Change "by replacing R" to "by replacing the Ricci scalar R" to introduce the variable R.
 
-Middle of right column p2: Include clarification of the spacetime used for LISA constraints: "... the $f(R)$ spacetime exterior to massive objects and, assuming this also describes the weak-field external to a BH, we ...".
+Final paragraph of right column p2: Insert "necessarily" into "We will see ... this is not necessarily the metric that describes the exterior of collapsed objects" to reflect the absence of a formal uniqueness proof later on in the text.
 
-same paragraph: Change "LISA will place" to "LISA could place".
+Same paragraph: Include clarification of the spacetime used for LISA constraints: "... the $f(R)$ spacetime exterior to massive objects and, assuming this also describes the weak-field external to a BH, we ...".
 
-Penultimate paragraph p2: Insert "necessarily" into "We will see ... this is not necessarily the metric that describes the exterior of collapsed objects" to reflect the absence of a formal uniqueness proof later on in the text.
+Same paragraph: Change "LISA will place" to "LISA could place".
+
 
 III. Linearized theory
 
