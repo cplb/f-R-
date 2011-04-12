@@ -37,7 +37,13 @@ Near bottom of left column on p6: Add reference to Corda 2009, which discusses d
 
 V. Energy-momentum Tensor
 
-Bottom left column p8: Change "Those that do not average to zero" to "Terms that simplify, but do not average to zero include" as the subsequent list omits terms from (79) which cannot be simplified, and this may not be immediately obvious. For the same reason "Combining these gives" is changed to "Combining terms gives" in the following sentence.
+Preceeding (67): Change reference from equation (23) to (39) as this later rearrangement may be more immediately applicable.
+
+Top p8: Add reminder that R^(B) is order epsilon^2.
+
+Equation (79): Correct "a_3/2" from "a_3". This is a simple typo, it is not propagated, and that term averages to zero anyway.
+
+Bottom left column p8: Change "Those that do not average to zero" to "Those that do not average to zero are the last three terms in (79), plus" as the subsequent list omits terms from (79) which cannot be simplified, and this may not be immediately obvious. For the same reason "Combining these gives" is changed to "Combining terms gives" in the following sentence.
 
 Equation (82): Term is corrected to {R^(1)}^2. The power of two was previously omitted: this was a simple typo and has no further consequences.
 

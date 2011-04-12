@@ -273,6 +273,7 @@ Subject to this, from \eqnref{Ricci}, the Ricci tensor is
 \begin{eqnarray}
 {R^{(1)}}_{\mu\nu} & = & -\frac{1}{2}\left[2b \partial_\mu\partial_\nu(a_2  R^{(1)}) + \Box\left(\overline{h}_{\mu\nu} -\frac{\overline{h}}{2}\eta_{\mu\nu}\right) \right. \nonumber \\*
  & &  +\left . \frac{b}{3}(R^{(1)} + \mathcal{G}^{(1)})\eta_{\mu\nu}\right].
+\label{eq:new_Ricci}
 \end{eqnarray}
 Using this with \eqnref{Box_R} in \eqnref{Field} gives
 \begin{eqnarray}
@@ -428,7 +429,7 @@ and
  & & - \left. \partial_\lambda \left(\overline{h}_{\mu\nu} \vphantom{R^{(1)}} - a_2 R^{(1)}\gamma_{\mu\nu}\right)\right].
 \end{eqnarray}
 
-For the Ricci tensor we can use our linearized expression, \eqnref{Ricci}, for the first order term,
+For the Ricci tensor we can use our linearized expression, \eqnref{new_Ricci}, for the first order term,
 \begin{equation}
 {R^{(1)}}_{\mu\nu} = a_2\partial_\mu\partial_\nu R^{(1)} + \recip{6} R^{(1)}\gamma_{\mu\nu}.
 \end{equation}
@@ -466,16 +467,17 @@ f'^{(0)} & = & 1 \\
 f'^{(1)} & = & a_2 R^{(1)} \\
 f'^{(2)} & = & a_2 R^{(2)} + \frac{a_3}{2}{R^{(1)}}^2.
 \end{eqnarray}
-We list a zeroth order term for clarity.
+We list a zeroth order term for clarity. $R^{(\text{B})}$ is $\order{\varepsilon^2}$.
 
 Combining all of these
 \begin{widetext}
 \begin{eqnarray}
 {\mathcal{G}^{(2)}}_{\mu\nu} & = & {R^{(2)}}_{\mu\nu} + f'^{(1)}{R^{(1)}}_{\mu\nu} - \partial_\mu\partial_\nu f'^{(2)} + {{\Gamma^{(1)}}^\rho}_{\nu\mu}\partial_\rho f'^{(1)} + \gamma_{\mu\nu}\gamma^{\rho\sigma}\partial_\rho\partial_\sigma f'^{(2)} - \gamma_{\mu\nu}\gamma^{\rho\sigma}{{\Gamma^{(1)}}^\lambda}_{\sigma\rho}\partial_\lambda f'^{(1)} \nonumber \\*
  & & - {} \gamma_{\mu\nu}h^{\rho\sigma}\partial_\rho\partial_\sigma f'^{(1)} + h_{\mu\nu}\gamma^{\rho\sigma}\partial_\rho\partial_\sigma f'^{(1)} - \recip{2}f^{(2)}\gamma_{\mu\nu} - \recip{2}f^{(1)}h_{\mu\nu} \nonumber \\*
- & = & {R^{(2)}}_{\mu\nu} + a_2\left(\gamma_{\mu\nu}\Box^{(\text{B})} - \partial_\mu\partial_\nu\right)R^{(2)} - \recip{2}R^{(2)}\gamma_{\mu\nu} + a_3\left(\gamma_{\mu\nu}\Box^{(\text{B})} - \partial_\mu\partial_\nu\right){R^{(1)}}^2 - \recip{6}\overline{h}_{\mu\nu}R^{(1)} \nonumber \\*
+ & = & {R^{(2)}}_{\mu\nu} + a_2\left(\gamma_{\mu\nu}\Box^{(\text{B})} - \partial_\mu\partial_\nu\right)R^{(2)} - \recip{2}R^{(2)}\gamma_{\mu\nu} + \frac{a_3}{2}\left(\gamma_{\mu\nu}\Box^{(\text{B})} - \partial_\mu\partial_\nu\right){R^{(1)}}^2 - \recip{6}\overline{h}_{\mu\nu}R^{(1)} \nonumber \\*
  & & - {} a_2\gamma_{\mu\nu}\overline{h}^{\sigma\rho}\partial_\sigma\partial_\rho R^{(1)} + \frac{a_2}{2} \partial^\rho R^{(1)} \left(\partial_\mu\overline{h}_{\rho\nu} + \partial_\nu\overline{h}_{\rho\mu} - \partial_\rho\overline{h}_{\mu\nu}\right) + a_2\left(R^{(1)}{R^{(1)}}_{\mu\nu} + \recip{4}{R^{(1)}}^2\gamma_{\mu\nu}\right) \nonumber \\*
  & & - {} a_2^2\left(\partial_\mu R^{(1)}\partial_\nu R^{(1)} + \recip{2} \gamma_{\mu\nu}\partial^\rho R^{(1)}\partial_\rho R^{(1)}\right).
+ \label{eq:G2}
 \end{eqnarray}
 \end{widetext}
 It is simplest to split this up for the purposes of averaging. Since we average over all directions at each point, gradients average to zero~\cite{Hobson2006, Stein2011}
@@ -486,7 +488,7 @@ As a corollary of this we have
 \begin{equation}
 \left\langle U\partial_\mu V\right\rangle = -\left\langle V \partial_\mu U\right\rangle.
 \end{equation}
-Repeated application of this, together with our gauge condition, \eqnref{Lorenz}, and wave equations, \eqnref{Box_R} and \eqnref{Box_hmunu}, allows us to eliminate many terms. Terms that simplify, but do not average to zero, include
+Repeated application of this, together with our gauge condition, \eqnref{Lorenz}, and wave equations, \eqnref{Box_R} and \eqnref{Box_hmunu}, allows us to eliminate many terms. Those that do not average to zero are the last three terms in \eqnref{G2}, plus
 \begin{eqnarray}
 \left\langle {R^{(2)}}_{\mu\nu} \right\rangle & = & \left\langle -\recip{4} \partial_\mu\overline{h}_{\sigma\rho}\partial_\nu\overline{h}^{\rho\sigma} + \frac{a_2^2}{2}\partial_\mu R^{(1)}\partial_\nu R^{(1)} \right. \nonumber \\* 
  & & + \left. \frac{a_2}{6}\gamma_{\mu\nu} {R^{(1)}}^2 \right\rangle; \\
