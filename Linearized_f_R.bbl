@@ -1,0 +1,1210 @@
+%merlin.mbs 2010-03-15 4.21a (PWD, AO, DPC)
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{111}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\@ifxundefined \urlstyle {%
+  \providecommand \doi  [0]{\begingroup \@sanitize@url \@doi}%
+  \providecommand \@doi [1]{\endgroup \@@startlink {\doibase
+  #1}doi:\discretionary {}{}{}#1\@@endlink }%
+}{%
+  \providecommand \doi  [0]{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url }%
+}%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \Doi [0]{\begingroup \@sanitize@url \@Doi }%
+\providecommand \@Doi  [1]{\endgroup\@@startlink{\doibase#1}\@@Doi}%
+\providecommand \@@Doi [1]{#1\@@endlink}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+%</preamble>
+\bibitem [{\citenamefont {Will}(2006)}]{Will2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont
+  {Will}},\ }\href {http://relativity.livingreviews.org/Articles/lrr-2006-3/}
+  {\bibfield  {journal} {\bibinfo  {journal} {Living Reviews in Relativity},\
+  }\textbf {\bibinfo {volume} {9}} (\bibinfo {year} {2006})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Will}(1993)}]{Will1993}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont
+  {Will}},\ }\href@noop {} {\emph {\bibinfo {title} {{Theory and experiment in
+  gravitational physics}}}},\ \bibinfo {edition} {revised}\ ed.\ (\bibinfo
+  {publisher} {Cambridge University Press},\ \bibinfo {address} {Cambridge},\
+  \bibinfo {year} {1993})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adelberger}\ \emph {et~al.}(2009)\citenamefont
+  {Adelberger}, \citenamefont {Gundlach}, \citenamefont {Heckel}, \citenamefont
+  {Hoedl},\ and\ \citenamefont {Schlamminger}}]{Adelberger2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Adelberger}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Gundlach}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Heckel}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Hoedl}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Schlamminger}},\ }\Doi
+  {10.1016/j.ppnp.2008.08.002} {\bibfield  {journal} {\bibinfo  {journal}
+  {Prog.\ Part.\ Nucl.\ Phys.},\ }\textbf {\bibinfo {volume} {62}},\ \bibinfo
+  {pages} {102} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adelberger}\ \emph {et~al.}(2003)\citenamefont
+  {Adelberger}, \citenamefont {Heckel},\ and\ \citenamefont
+  {Nelson}}]{Adelberger2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Adelberger}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Heckel}},
+  \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Nelson}},\ }\Doi
+  {10.1146/annurev.nucl.53.041002.110503} {\bibfield  {journal} {\bibinfo
+  {journal} {Annu.\ Rev.\ Nucl.\ Part.\ Sci.},\ }\textbf {\bibinfo {volume}
+  {53}},\ \bibinfo {pages} {77} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bertotti}\ \emph {et~al.}(2003)\citenamefont
+  {Bertotti}, \citenamefont {Iess},\ and\ \citenamefont
+  {Tortora}}]{Bertotti2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Bertotti}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Iess}}, \
+  and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Tortora}},\ }\Doi
+  {10.1038/nature01997} {\bibfield  {journal} {\bibinfo  {journal} {Nature},\
+  }\textbf {\bibinfo {volume} {425}},\ \bibinfo {pages} {374} (\bibinfo {year}
+  {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Everitt}\ \emph {et~al.}(2009)\citenamefont
+  {Everitt}, \citenamefont {Adams}, \citenamefont {Bencze}, \citenamefont
+  {Buchman}, \citenamefont {Clarke}, \citenamefont {Conklin}, \citenamefont
+  {DeBra}, \citenamefont {Dolphin}, \citenamefont {Heifetz}, \citenamefont
+  {Hipkins}, \citenamefont {Holmes}, \citenamefont {Keiser}, \citenamefont
+  {Kolodziejczak}, \citenamefont {Li}, \citenamefont {Lipa}, \citenamefont
+  {Lockhart}, \citenamefont {Mester}, \citenamefont {Muhlfelder}, \citenamefont
+  {Ohshima}, \citenamefont {Parkinson}, \citenamefont {Salomon}, \citenamefont
+  {Silbergleit}, \citenamefont {Solomonik}, \citenamefont {Stahl},
+  \citenamefont {Taber}, \citenamefont {Turneaure}, \citenamefont {Wang},\ and\
+  \citenamefont {Worden}}]{Everitt2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~W.~F.}\
+  \bibnamefont {Everitt}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Adams}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Bencze}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Buchman}}, \bibinfo
+  {author} {\bibfnamefont {B.}~\bibnamefont {Clarke}}, \bibinfo {author}
+  {\bibfnamefont {J.~W.}\ \bibnamefont {Conklin}}, \bibinfo {author}
+  {\bibfnamefont {D.~B.}\ \bibnamefont {DeBra}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Dolphin}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Heifetz}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Hipkins}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Holmes}}, \bibinfo {author} {\bibfnamefont {G.~M.}\
+  \bibnamefont {Keiser}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Kolodziejczak}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Li}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Lipa}}, \bibinfo {author}
+  {\bibfnamefont {J.~M.}\ \bibnamefont {Lockhart}}, \bibinfo {author}
+  {\bibfnamefont {J.~C.}\ \bibnamefont {Mester}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Muhlfelder}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Ohshima}}, \bibinfo {author} {\bibfnamefont
+  {B.~W.}\ \bibnamefont {Parkinson}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Salomon}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Silbergleit}}, \bibinfo {author} {\bibfnamefont
+  {V.}~\bibnamefont {Solomonik}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Stahl}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Taber}}, \bibinfo {author} {\bibfnamefont {J.~P.}\
+  \bibnamefont {Turneaure}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Wang}}, \ and\ \bibinfo {author} {\bibfnamefont {P.~W.}\ \bibnamefont
+  {Worden}},\ }\Doi {10.1007/s11214-009-9524-7} {\bibfield  {journal} {\bibinfo
+   {journal} {Space Sci.\ Rev.},\ }\textbf {\bibinfo {volume} {148}},\ \bibinfo
+  {pages} {53} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stairs}(2003)}]{Stairs2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.~H.}\ \bibnamefont
+  {Stairs}},\ }\href {http://www.livingreviews.org/lrr-2003-5/} {\bibfield
+  {journal} {\bibinfo  {journal} {Living Reviews in Relativity},\ }\textbf
+  {\bibinfo {volume} {6}} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abramovici}\ \emph {et~al.}(1992)\citenamefont
+  {Abramovici}, \citenamefont {Althouse}, \citenamefont {Drever}, \citenamefont
+  {G\"{u}rsel}, \citenamefont {Kawamura}, \citenamefont {Raab}, \citenamefont
+  {Shoemaker}, \citenamefont {Sievers}, \citenamefont {Spero}, \citenamefont
+  {Thorne}, \citenamefont {Vogt}, \citenamefont {Weiss}, \citenamefont
+  {Whitcomb},\ and\ \citenamefont {Zucker}}]{Abramovici1992}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Abramovici}}, \bibinfo {author} {\bibfnamefont {W.~E.}\ \bibnamefont
+  {Althouse}}, \bibinfo {author} {\bibfnamefont {R.~W.~P.}\ \bibnamefont
+  {Drever}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {G\"{u}rsel}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Kawamura}}, \bibinfo
+  {author} {\bibfnamefont {F.~J.}\ \bibnamefont {Raab}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Shoemaker}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Sievers}}, \bibinfo {author} {\bibfnamefont
+  {R.~E.}\ \bibnamefont {Spero}}, \bibinfo {author} {\bibfnamefont {K.~S.}\
+  \bibnamefont {Thorne}}, \bibinfo {author} {\bibfnamefont {R.~E.}\
+  \bibnamefont {Vogt}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Weiss}}, \bibinfo {author} {\bibfnamefont {S.~E.}\ \bibnamefont {Whitcomb}},
+  \ and\ \bibinfo {author} {\bibfnamefont {M.~E.}\ \bibnamefont {Zucker}},\
+  }\Doi {10.1126/science.256.5055.325} {\bibfield  {journal} {\bibinfo
+  {journal} {Science},\ }\textbf {\bibinfo {volume} {256}},\ \bibinfo {pages}
+  {325} (\bibinfo {year} {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{B.\ P. Abbott et al.\ (The LIGO Scientific
+  Collaboration)}}(2009)}]{Abbott2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{B.\ P. Abbott et al.\
+  (The LIGO Scientific Collaboration)}}},\ }\Doi
+  {10.1088/0034-4885/72/7/076901} {\bibfield  {journal} {\bibinfo  {journal}
+  {Rep.\ Prog.\ Phys.},\ }\textbf {\bibinfo {volume} {72}},\ \bibinfo {pages}
+  {076901} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{T.\ Accadia et al.}}(2010)}]{Accadia2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{T.\ Accadia et
+  al.}}},\ }\Doi {10.1088/1742-6596/203/1/012074} {\bibfield  {journal}
+  {\bibinfo  {journal} {J. Phys.: Conf. Ser.},\ }\textbf {\bibinfo {volume}
+  {203}},\ \bibinfo {pages} {012074} (\bibinfo {year} {2010})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Willke}\ \emph {et~al.}(2002)\citenamefont {Willke},
+  \citenamefont {Aufmuth}, \citenamefont {Aulbert}, \citenamefont {Babak},
+  \citenamefont {Balasubramanian}, \citenamefont {Barr}, \citenamefont
+  {Berukoff}, \citenamefont {Bose}, \citenamefont {Cagnoli}, \citenamefont
+  {Casey}, \citenamefont {Churches}, \citenamefont {Clubley}, \citenamefont
+  {Colacino}, \citenamefont {Crooks}, \citenamefont {Cutler}, \citenamefont
+  {Danzmann}, \citenamefont {Davies}, \citenamefont {Dupuis}, \citenamefont
+  {Elliffe}, \citenamefont {Fallnich}, \citenamefont {Freise}, \citenamefont
+  {Go{\ss}ler}, \citenamefont {Grant}, \citenamefont {Grote}, \citenamefont
+  {Heinzel}, \citenamefont {Heptonstall}, \citenamefont {Heurs}, \citenamefont
+  {Hewitson}, \citenamefont {Hough}, \citenamefont {Jennrich}, \citenamefont
+  {Kawabe}, \citenamefont {K{\"o}tter}, \citenamefont {Leonhardt},
+  \citenamefont {L{\"u}ck}, \citenamefont {Malec}, \citenamefont {McNamara},
+  \citenamefont {McIntosh}, \citenamefont {Mossavi}, \citenamefont {Mohanty},
+  \citenamefont {Mukherjee}, \citenamefont {Nagano}, \citenamefont {Newton},
+  \citenamefont {Owen}, \citenamefont {Palmer}, \citenamefont {Papa},
+  \citenamefont {Plissi}, \citenamefont {Quetschke}, \citenamefont {Robertson},
+  \citenamefont {Robertson}, \citenamefont {Rowan}, \citenamefont
+  {R{\"u}diger}, \citenamefont {Sathyaprakash}, \citenamefont {Schilling},
+  \citenamefont {Schutz}, \citenamefont {Senior}, \citenamefont {Sintes},
+  \citenamefont {Skeldon}, \citenamefont {Sneddon}, \citenamefont {Stief},
+  \citenamefont {Strain}, \citenamefont {Taylor}, \citenamefont {Torrie},
+  \citenamefont {Vecchio}, \citenamefont {Ward}, \citenamefont {Weiland},
+  \citenamefont {Welling}, \citenamefont {Williams}, \citenamefont {Winkler},
+  \citenamefont {Woan},\ and\ \citenamefont {Zawischa}}]{Willke2002}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Willke}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Aufmuth}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Aulbert}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Babak}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Balasubramanian}}, \bibinfo {author}
+  {\bibfnamefont {B.~W.}\ \bibnamefont {Barr}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Berukoff}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Bose}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Cagnoli}}, \bibinfo {author} {\bibfnamefont {M.~M.}\
+  \bibnamefont {Casey}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Churches}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Clubley}},
+  \bibinfo {author} {\bibfnamefont {C.~N.}\ \bibnamefont {Colacino}}, \bibinfo
+  {author} {\bibfnamefont {D.~R.~M.}\ \bibnamefont {Crooks}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Cutler}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Danzmann}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Davies}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Dupuis}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {Elliffe}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Fallnich}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Freise}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Go{\ss}ler}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Grant}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Grote}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Heinzel}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Heptonstall}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Heurs}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Hewitson}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Hough}}, \bibinfo {author} {\bibfnamefont
+  {O.}~\bibnamefont {Jennrich}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Kawabe}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {K{\"o}tter}}, \bibinfo {author} {\bibfnamefont
+  {V.}~\bibnamefont {Leonhardt}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {L{\"u}ck}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Malec}}, \bibinfo {author} {\bibfnamefont {P.~W.}\
+  \bibnamefont {McNamara}}, \bibinfo {author} {\bibfnamefont {S.~A.}\
+  \bibnamefont {McIntosh}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Mossavi}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Mohanty}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Mukherjee}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Nagano}}, \bibinfo {author}
+  {\bibfnamefont {G.~P.}\ \bibnamefont {Newton}}, \bibinfo {author}
+  {\bibfnamefont {B.~J.}\ \bibnamefont {Owen}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Palmer}}, \bibinfo {author} {\bibfnamefont
+  {M.~A.}\ \bibnamefont {Papa}}, \bibinfo {author} {\bibfnamefont {M.~V.}\
+  \bibnamefont {Plissi}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Quetschke}}, \bibinfo {author} {\bibfnamefont {D.~I.}\ \bibnamefont
+  {Robertson}}, \bibinfo {author} {\bibfnamefont {N.~A.}\ \bibnamefont
+  {Robertson}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Rowan}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {R{\"u}diger}}, \bibinfo
+  {author} {\bibfnamefont {B.~S.}\ \bibnamefont {Sathyaprakash}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Schilling}}, \bibinfo {author}
+  {\bibfnamefont {B.~F.}\ \bibnamefont {Schutz}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Senior}}, \bibinfo {author} {\bibfnamefont
+  {A.~M.}\ \bibnamefont {Sintes}}, \bibinfo {author} {\bibfnamefont {K.~D.}\
+  \bibnamefont {Skeldon}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Sneddon}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Stief}},
+  \bibinfo {author} {\bibfnamefont {K.~A.}\ \bibnamefont {Strain}}, \bibinfo
+  {author} {\bibfnamefont {I.}~\bibnamefont {Taylor}}, \bibinfo {author}
+  {\bibfnamefont {C.~I.}\ \bibnamefont {Torrie}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Vecchio}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Ward}}, \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
+  {Weiland}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Welling}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Williams}}, \bibinfo
+  {author} {\bibfnamefont {W.}~\bibnamefont {Winkler}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Woan}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {I.}~\bibnamefont {Zawischa}},\ }\Doi
+  {http://dx.doi.org/10.1088/0264-9381/19/7/321} {\bibfield  {journal}
+  {\bibinfo  {journal} {Classical Quantum Gravity},\ }\textbf {\bibinfo
+  {volume} {19}},\ \bibinfo {pages} {1377} (\bibinfo {year}
+  {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{J.\ Abadie et al.\ (The LIGO Scientific
+  Collaboration and The Virgo Collaboration)}}(2010)}]{Abadie2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{J.\ Abadie et al.\
+  (The LIGO Scientific Collaboration and The Virgo Collaboration)}}},\ }\Doi
+  {10.1103/PhysRevD.81.102001} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {81}},\ \bibinfo {pages}
+  {102001} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bender}\ \emph {et~al.}(1998)\citenamefont {Bender},
+  \citenamefont {Brillet}, \citenamefont {Ciufolini}, \citenamefont {Cruise},
+  \citenamefont {Cutler}, \citenamefont {Danzmann}, \citenamefont {Fidecaro},
+  \citenamefont {Folkner}, \citenamefont {Hough}, \citenamefont {McNamara},
+  \citenamefont {Peterseim}, \citenamefont {Robertson}, \citenamefont
+  {Rodrigues}, \citenamefont {R\"{u}diger}, \citenamefont {Sandford},
+  \citenamefont {Sch\"{a}fer}, \citenamefont {Schilling}, \citenamefont
+  {Schutz}, \citenamefont {Speake}, \citenamefont {Stebbins}, \citenamefont
+  {Sumner}, \citenamefont {Touboul}, \citenamefont {Vinet}, \citenamefont
+  {Vitale}, \citenamefont {Ward},\ and\ \citenamefont {Winkler}}]{Bender1998}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Bender}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Brillet}},
+  \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Ciufolini}}, \bibinfo
+  {author} {\bibfnamefont {A.~M.}\ \bibnamefont {Cruise}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Cutler}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Danzmann}}, \bibinfo {author} {\bibfnamefont
+  {F.}~\bibnamefont {Fidecaro}}, \bibinfo {author} {\bibfnamefont {W.~M.}\
+  \bibnamefont {Folkner}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Hough}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {McNamara}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Peterseim}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Robertson}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Rodrigues}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {R\"{u}diger}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Sandford}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Sch\"{a}fer}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Schilling}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Schutz}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Speake}}, \bibinfo {author} {\bibfnamefont {R.~T.}\
+  \bibnamefont {Stebbins}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Sumner}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Touboul}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Vinet}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Vitale}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Ward}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Winkler}},\ }\href@noop {} {\emph {\bibinfo
+  {title} {{LISA Pre-Phase A Report}}}},\ \bibinfo {type} {Tech. Rep.}\
+  (\bibinfo  {institution} {Max-Planck-Institut f\"{u}r Quantenoptik},\
+  \bibinfo {address} {Garching},\ \bibinfo {year} {1998})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Danzmann}\ and\ \citenamefont
+  {R\"{u}diger}(2003)}]{Danzmann2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Danzmann}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {R\"{u}diger}},\ }\Doi {10.1088/0264-9381/20/10/301} {\bibfield  {journal}
+  {\bibinfo  {journal} {Classical Quantum Gravity},\ }\textbf {\bibinfo
+  {volume} {20}},\ \bibinfo {pages} {S1} (\bibinfo {year} {2003})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Psaltis}(2008)}]{Psaltis2008a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Psaltis}},\ }\href {http://www.livingreviews.org/lrr-2008-9} {\bibfield
+  {journal} {\bibinfo  {journal} {Living Reviews in Relativity},\ }\textbf
+  {\bibinfo {volume} {11}} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Amaro-Seoane}\ \emph {et~al.}(2007)\citenamefont
+  {Amaro-Seoane}, \citenamefont {Gair}, \citenamefont {Freitag}, \citenamefont
+  {Miller}, \citenamefont {Mandel}, \citenamefont {Cutler},\ and\ \citenamefont
+  {Babak}}]{Amaro-Seoane2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Amaro-Seoane}}, \bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont
+  {Gair}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Freitag}},
+  \bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont {Miller}}, \bibinfo
+  {author} {\bibfnamefont {I.}~\bibnamefont {Mandel}}, \bibinfo {author}
+  {\bibfnamefont {C.~J.}\ \bibnamefont {Cutler}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Babak}},\ }\Doi
+  {10.1088/0264-9381/24/17/R01} {\bibfield  {journal} {\bibinfo  {journal}
+  {Classical Quantum Gravity},\ }\textbf {\bibinfo {volume} {24}},\ \bibinfo
+  {pages} {R113} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ryan}(1995)}]{Ryan1995c}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.~D.}\ \bibnamefont
+  {Ryan}},\ }\Doi {10.1103/PhysRevD.52.5707} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {52}},\ \bibinfo
+  {pages} {5707} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ryan}(1997)}]{Ryan1997a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.~D.}\ \bibnamefont
+  {Ryan}},\ }\Doi {10.1103/PhysRevD.56.1845} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {56}},\ \bibinfo
+  {pages} {1845} (\bibinfo {year} {1997})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Israel}(1967)}]{Israel1967}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Israel}},\ }\Doi {10.1103/PhysRev.164.1776} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys.\ Rev.},\ }\textbf {\bibinfo {volume} {164}},\ \bibinfo
+  {pages} {1776} (\bibinfo {year} {1967})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Israel}(1968)}]{Israel1968}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Israel}},\ }\Doi {10.1007/BF01645859} {\bibfield  {journal} {\bibinfo
+  {journal} {Comm.\ Math.\ Phys.},\ }\textbf {\bibinfo {volume} {8}},\ \bibinfo
+  {pages} {245} (\bibinfo {year} {1968})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Carter}(1971)}]{Carter1971}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Carter}},\ }\Doi {10.1103/PhysRevLett.26.331} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ Lett.},\ }\textbf {\bibinfo {volume}
+  {26}},\ \bibinfo {pages} {331} (\bibinfo {year} {1971})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hawking}(1972){\natexlab{a}}}]{Hawking1972}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~W.}\ \bibnamefont
+  {Hawking}},\ }\Doi {10.1007/BF01877517} {\bibfield  {journal} {\bibinfo
+  {journal} {Comm.\ Math.\ Phys.},\ }\textbf {\bibinfo {volume} {25}},\
+  \bibinfo {pages} {152} (\bibinfo {year} {1972}{\natexlab{a}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Robinson}(1975)}]{Robinson1975}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Robinson}},\ }\Doi {10.1103/PhysRevLett.34.905} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ Lett.},\ }\textbf {\bibinfo {volume}
+  {34}},\ \bibinfo {pages} {905} (\bibinfo {year} {1975})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hansen}(1974)}]{Hansen1974}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~O.}\ \bibnamefont
+  {Hansen}},\ }\Doi {10.1063/1.1666501} {\bibfield  {journal} {\bibinfo
+  {journal} {J.\ Math.\ Phys.},\ }\textbf {\bibinfo {volume} {15}},\ \bibinfo
+  {pages} {46} (\bibinfo {year} {1974})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Collins}\ and\ \citenamefont
+  {Hughes}(2004)}]{Collins2004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~A.}\ \bibnamefont
+  {Collins}}\ and\ \bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont
+  {Hughes}},\ }\Doi {10.1103/PhysRevD.69.124022} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {69}},\
+  \bibinfo {pages} {124022(16)} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Glampedakis}\ and\ \citenamefont
+  {Babak}(2006)}]{Glampedakis2006a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Glampedakis}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Babak}},\ }\Doi {10.1088/0264-9381/23/12/013} {\bibfield  {journal}
+  {\bibinfo  {journal} {Classical Quantum Gravity},\ }\textbf {\bibinfo
+  {volume} {23}},\ \bibinfo {pages} {4167} (\bibinfo {year}
+  {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Barack}\ and\ \citenamefont
+  {Cutler}(2007)}]{Barack2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Barack}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Cutler}},\ }\Doi {10.1103/PhysRevD.75.042003} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {75}},\
+  \bibinfo {pages} {042003} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gair}\ \emph {et~al.}(2008)\citenamefont {Gair},
+  \citenamefont {Li},\ and\ \citenamefont {Mandel}}]{Gair2008a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont
+  {Gair}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Li}}, \ and\
+  \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Mandel}},\ }\Doi
+  {10.1103/PhysRevD.77.024035} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {77}},\ \bibinfo {pages}
+  {024035} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lukes-Gerakopoulos}\ \emph
+  {et~al.}(2010)\citenamefont {Lukes-Gerakopoulos}, \citenamefont
+  {Apostolatos},\ and\ \citenamefont {Contopoulos}}]{Lukes-Gerakopoulos2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Lukes-Gerakopoulos}}, \bibinfo {author} {\bibfnamefont {T.~A.}\ \bibnamefont
+  {Apostolatos}}, \ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Contopoulos}},\ }\Doi {10.1103/PhysRevD.81.124005} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {81}},\
+  \bibinfo {pages} {124005} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kesden}\ \emph {et~al.}(2005)\citenamefont {Kesden},
+  \citenamefont {Gair},\ and\ \citenamefont {Kamionkowski}}]{Kesden2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kesden}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Gair}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Kamionkowski}},\ }\Doi
+  {10.1103/PhysRevD.71.044015} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {71}},\ \bibinfo {pages}
+  {044015} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Psaltis}\ \emph {et~al.}(2008)\citenamefont
+  {Psaltis}, \citenamefont {Perrodin}, \citenamefont {Dienes},\ and\
+  \citenamefont {Mocioiu}}]{Psaltis2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Psaltis}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Perrodin}},
+  \bibinfo {author} {\bibfnamefont {K.~R.}\ \bibnamefont {Dienes}}, \ and\
+  \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Mocioiu}},\ }\Doi
+  {10.1103/PhysRevLett.100.091101} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys.\ Rev.\ Lett.},\ }\textbf {\bibinfo {volume} {100}},\ \bibinfo {pages}
+  {091101} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Yunes}}\ and\ \citenamefont {{Stein}}(2011)}]{SYBH}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {{Yunes}}}\ and\ \bibinfo {author} {\bibfnamefont {L.~C.}\ \bibnamefont
+  {{Stein}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {{arXiv e-prints}}} (\bibinfo {year} {2011})},\ \Eprint
+  {http://arxiv.org/abs/1101.2921} {arXiv:1101.2921 [gr-qc]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Barausse}\ and\ \citenamefont
+  {Sotiriou}(2008)}]{Barausse2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Barausse}}\ and\ \bibinfo {author} {\bibfnamefont {T.~P.}\ \bibnamefont
+  {Sotiriou}},\ }\Doi {10.1103/PhysRevLett.101.099001} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ Lett.},\ }\textbf {\bibinfo {volume}
+  {101}},\ \bibinfo {pages} {099001} (\bibinfo {year} {2008})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Stein}\ and\ \citenamefont
+  {Yunes}(2011)}]{Stein2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~C.}\ \bibnamefont
+  {Stein}}\ and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Yunes}},\
+  }\Doi {10.1103/PhysRevD.83.064038} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phy.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo {pages}
+  {064038} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Berti}\ \emph {et~al.}(2005)\citenamefont {Berti},
+  \citenamefont {Buonanno},\ and\ \citenamefont {Will}}]{Berti2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Berti}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Buonanno}}, \
+  and\ \bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont {Will}},\ }\Doi
+  {10.1103/PhysRevD.71.084025} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {71}},\ \bibinfo {pages}
+  {84025} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Alexander}\ \emph {et~al.}(2008)\citenamefont
+  {Alexander}, \citenamefont {Finn},\ and\ \citenamefont
+  {Yunes}}]{Alexander2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Alexander}}, \bibinfo {author} {\bibfnamefont {L.~S.}\ \bibnamefont {Finn}},
+  \ and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Yunes}},\ }\Doi
+  {10.1103/PhysRevD.78.066005} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {78}},\ \bibinfo {pages}
+  {066005} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Alexander}\ and\ \citenamefont
+  {Yunes}(2009)}]{Alexander2009a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Alexander}}\ and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Yunes}},\ }\Doi {10.1016/j.physrep.2009.07.002} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rep.},\ }\textbf {\bibinfo {volume} {480}},\
+  \bibinfo {pages} {1} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sopuerta}\ and\ \citenamefont
+  {Yunes}(2009)}]{Sopuerta2009a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~F.}\ \bibnamefont
+  {Sopuerta}}\ and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Yunes}},\ }\Doi {10.1103/PhysRevD.80.064006} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {80}},\ \bibinfo
+  {pages} {064006} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sotiriou}\ and\ \citenamefont
+  {Faraoni}(2010)}]{Sotiriou2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~P.}\ \bibnamefont
+  {Sotiriou}}\ and\ \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Faraoni}},\ }\Doi {10.1103/RevModPhys.82.451} {\bibfield  {journal}
+  {\bibinfo  {journal} {Rev.\ Mod.\ Phys.},\ }\textbf {\bibinfo {volume}
+  {82}},\ \bibinfo {pages} {451} (\bibinfo {year} {2010})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{De Felice}}\ and\ \citenamefont
+  {Tsujikawa}(2010)}]{DeFelice2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{De
+  Felice}}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Tsujikawa}},\ }\href {http://www.livingreviews.org/lrr-2010-3} {\bibfield
+  {journal} {\bibinfo  {journal} {Living Reviews in Relativity},\ }\textbf
+  {\bibinfo {volume} {13}} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nojiri}\ and\ \citenamefont
+  {Odintsov}(2007)}]{Nojiri2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Nojiri}}\ and\ \bibinfo {author} {\bibfnamefont {S.~D.}\ \bibnamefont
+  {Odintsov}},\ }\Doi {10.1142/S0219887807001928} {\bibfield  {journal}
+  {\bibinfo  {journal} {Int.\ J.\ Geom.\ Methods Mod.\ Phys.},\ }\textbf
+  {\bibinfo {volume} {4}},\ \bibinfo {pages} {115} (\bibinfo {year}
+  {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Capozziello}\ and\ \citenamefont
+  {Francaviglia}(2007)}]{Capozziello2007a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Capozziello}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Francaviglia}},\ }\Doi {10.1007/s10714-007-0551-y} {\bibfield  {journal}
+  {\bibinfo  {journal} {Gen.\ Relativity Gravitation},\ }\textbf {\bibinfo
+  {volume} {40}},\ \bibinfo {pages} {357} (\bibinfo {year} {2007})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Starobinsky}(1980)}]{Starobinsky1980}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Starobinsky}},\ }\Doi {10.1016/0370-2693(80)90670-X} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Lett.\ B},\ }\textbf {\bibinfo {volume} {91}},\
+  \bibinfo {pages} {99} (\bibinfo {year} {1980})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vilenkin}(1985)}]{Vilenkin1985}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Vilenkin}},\ }\Doi {10.1103/PhysRevD.32.2511} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {32}},\
+  \bibinfo {pages} {2511} (\bibinfo {year} {1985})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Starobinskii}(1983)}]{Starobinskii1983}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
+  {Starobinskii}},\ }\href {http://adsabs.harvard.edu/abs/1983SvAL....9..302S}
+  {\bibfield  {journal} {\bibinfo  {journal} {Sov.\ Astron.\ Lett.},\ }\textbf
+  {\bibinfo {volume} {9}},\ \bibinfo {pages} {302} (\bibinfo {year}
+  {1983})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Starobinskii}(1985)}]{Starobinskii1985}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
+  {Starobinskii}},\ }\href {http://adsabs.harvard.edu/abs/1985SvAL...11..133S}
+  {\bibfield  {journal} {\bibinfo  {journal} {Sov.\ Astron.\ Lett.},\ }\textbf
+  {\bibinfo {volume} {11}},\ \bibinfo {pages} {133} (\bibinfo {year}
+  {1985})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jarosik}\ \emph {et~al.}(2011)\citenamefont
+  {Jarosik}, \citenamefont {Bennett}, \citenamefont {Dunkley}, \citenamefont
+  {Gold}, \citenamefont {Greason}, \citenamefont {Halpern}, \citenamefont
+  {Hill}, \citenamefont {Hinshaw}, \citenamefont {Kogut}, \citenamefont
+  {Komatsu}, \citenamefont {Larson}, \citenamefont {Limon}, \citenamefont
+  {Meyer}, \citenamefont {Nolta}, \citenamefont {Odegard}, \citenamefont
+  {Page}, \citenamefont {Smith}, \citenamefont {Spergel}, \citenamefont
+  {Tucker}, \citenamefont {Weiland}, \citenamefont {Wollack},\ and\
+  \citenamefont {Wright}}]{Jarosik2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Jarosik}}, \bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {Bennett}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Dunkley}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Gold}}, \bibinfo {author}
+  {\bibfnamefont {M.~R.}\ \bibnamefont {Greason}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Halpern}}, \bibinfo {author} {\bibfnamefont
+  {R.~S.}\ \bibnamefont {Hill}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Hinshaw}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Kogut}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {Komatsu}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Larson}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Limon}}, \bibinfo {author} {\bibfnamefont {S.~S.}\
+  \bibnamefont {Meyer}}, \bibinfo {author} {\bibfnamefont {M.~R.}\ \bibnamefont
+  {Nolta}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Odegard}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Page}}, \bibinfo {author}
+  {\bibfnamefont {K.~M.}\ \bibnamefont {Smith}}, \bibinfo {author}
+  {\bibfnamefont {D.~N.}\ \bibnamefont {Spergel}}, \bibinfo {author}
+  {\bibfnamefont {G.~S.}\ \bibnamefont {Tucker}}, \bibinfo {author}
+  {\bibfnamefont {J.~L.}\ \bibnamefont {Weiland}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Wollack}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {E.~L.}\ \bibnamefont {Wright}},\ }\Doi
+  {10.1088/0067-0049/192/2/14} {\bibfield  {journal} {\bibinfo  {journal}
+  {Astrophys.\ J.\ Suppl.\ Ser.},\ }\textbf {\bibinfo {volume} {192}},\
+  \bibinfo {pages} {14} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Larson}\ \emph {et~al.}(2011)\citenamefont {Larson},
+  \citenamefont {Dunkley}, \citenamefont {Hinshaw}, \citenamefont {Komatsu},
+  \citenamefont {Nolta}, \citenamefont {Bennett}, \citenamefont {Gold},
+  \citenamefont {Halpern}, \citenamefont {Hill}, \citenamefont {Jarosik},
+  \citenamefont {Kogut}, \citenamefont {Limon}, \citenamefont {Meyer},
+  \citenamefont {Odegard}, \citenamefont {Page}, \citenamefont {Smith},
+  \citenamefont {Spergel}, \citenamefont {Tucker}, \citenamefont {Weiland},
+  \citenamefont {Wollack},\ and\ \citenamefont {Wright}}]{Larson2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Larson}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Dunkley}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Hinshaw}}, \bibinfo
+  {author} {\bibfnamefont {E.}~\bibnamefont {Komatsu}}, \bibinfo {author}
+  {\bibfnamefont {M.~R.}\ \bibnamefont {Nolta}}, \bibinfo {author}
+  {\bibfnamefont {C.~L.}\ \bibnamefont {Bennett}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Gold}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Halpern}}, \bibinfo {author} {\bibfnamefont {R.~S.}\
+  \bibnamefont {Hill}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Jarosik}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Kogut}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Limon}}, \bibinfo
+  {author} {\bibfnamefont {S.~S.}\ \bibnamefont {Meyer}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {Odegard}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Page}}, \bibinfo {author} {\bibfnamefont {K.~M.}\
+  \bibnamefont {Smith}}, \bibinfo {author} {\bibfnamefont {D.~N.}\ \bibnamefont
+  {Spergel}}, \bibinfo {author} {\bibfnamefont {G.~S.}\ \bibnamefont {Tucker}},
+  \bibinfo {author} {\bibfnamefont {J.~L.}\ \bibnamefont {Weiland}}, \bibinfo
+  {author} {\bibfnamefont {E.}~\bibnamefont {Wollack}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {E.~L.}\ \bibnamefont {Wright}},\ }\Doi
+  {10.1088/0067-0049/192/2/16} {\bibfield  {journal} {\bibinfo  {journal}
+  {Astrophys.\ J.\ Suppl.\ Ser.},\ }\textbf {\bibinfo {volume} {192}},\
+  \bibinfo {pages} {16} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Starobinsky}(2007)}]{Starobinsky2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
+  {Starobinsky}},\ }\Doi {10.1134/S0021364007150027} {\bibfield  {journal}
+  {\bibinfo  {journal} {JETP Lett.},\ }\textbf {\bibinfo {volume} {86}},\
+  \bibinfo {pages} {157} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Isaacson}(1968){\natexlab{a}}}]{Isaacson1968}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Isaacson}},\ }\Doi {10.1103/PhysRev.166.1263} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.},\ }\textbf {\bibinfo {volume} {166}},\
+  \bibinfo {pages} {1263} (\bibinfo {year} {1968}{\natexlab{a}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Isaacson}(1968){\natexlab{b}}}]{Isaacson1968a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Isaacson}},\ }\Doi {10.1103/PhysRev.166.1272} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.},\ }\textbf {\bibinfo {volume} {166}},\
+  \bibinfo {pages} {1272} (\bibinfo {year} {1968}{\natexlab{b}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Landau}\ and\ \citenamefont
+  {Lifshitz}(1975)}]{Landau1975}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~D.}\ \bibnamefont
+  {Landau}}\ and\ \bibinfo {author} {\bibfnamefont {E.~M.}\ \bibnamefont
+  {Lifshitz}},\ }\href@noop {} {\emph {\bibinfo {title} {{The Classical Theory
+  of Fields}}}},\ \bibinfo {edition} {4th}\ ed.,\ Course of Theoretical
+  Physics\ (\bibinfo  {publisher} {Butterworth-Heinemann},\ \bibinfo {address}
+  {Oxford},\ \bibinfo {year} {1975})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Misner}\ \emph {et~al.}(1973)\citenamefont {Misner},
+  \citenamefont {Thorne},\ and\ \citenamefont {Wheeler}}]{Misner1973}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~W.}\ \bibnamefont
+  {Misner}}, \bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont {Thorne}},
+  \ and\ \bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont {Wheeler}},\
+  }\href@noop {} {\emph {\bibinfo {title} {{Gravitation}}}}\ (\bibinfo
+  {publisher} {W. H. Freeman},\ \bibinfo {address} {New York},\ \bibinfo {year}
+  {1973})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Buchdahl}(1970)}]{Buchdahl1970}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~A.}\ \bibnamefont
+  {Buchdahl}},\ }\href {http://adsabs.harvard.edu/abs/1970MNRAS.150....1B}
+  {\bibfield  {journal} {\bibinfo  {journal} {Mon.\ Not.\ R.\ Astron.\ Soc.},\
+  }\textbf {\bibinfo {volume} {150}},\ \bibinfo {pages} {1} (\bibinfo {year}
+  {1970})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Park}\ \emph {et~al.}(2010)\citenamefont {Park},
+  \citenamefont {Zurek},\ and\ \citenamefont {Watson}}]{Park2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Park}}, \bibinfo {author} {\bibfnamefont {K.~M.}\ \bibnamefont {Zurek}}, \
+  and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Watson}},\ }\Doi
+  {10.1103/PhysRevD.81.124008} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {81}},\ \bibinfo {pages}
+  {124008} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Capozziello}\ \emph {et~al.}(2007)\citenamefont
+  {Capozziello}, \citenamefont {Stabile},\ and\ \citenamefont
+  {Troisi}}]{Capozziello2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Capozziello}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Stabile}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Troisi}},\ }\Doi {10.1103/PhysRevD.76.104019} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {76}},\
+  \bibinfo {pages} {104019} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Faulkner}\ \emph {et~al.}(2007)\citenamefont
+  {Faulkner}, \citenamefont {Tegmark}, \citenamefont {Bunn},\ and\
+  \citenamefont {Mao}}]{Faulkner2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Faulkner}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Tegmark}},
+  \bibinfo {author} {\bibfnamefont {E.~F.}\ \bibnamefont {Bunn}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Mao}},\ }\Doi
+  {10.1103/PhysRevD.76.063505} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {76}},\ \bibinfo {pages}
+  {063505} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Clifton}(2008)}]{Clifton2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Clifton}},\ }\Doi {10.1103/PhysRevD.77.024041} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {77}},\
+  \bibinfo {pages} {024041} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Exirifard}\ and\ \citenamefont
+  {Sheik-Jabbari}(2008)}]{Exirifard2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont
+  {Exirifard}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Sheik-Jabbari}},\ }\Doi {10.1016/j.physletb.2008.02.012} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys.\ Lett.\ B},\ }\textbf {\bibinfo
+  {volume} {661}},\ \bibinfo {pages} {158} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lovelock}(1970)}]{Lovelock1970}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Lovelock}},\ }\Doi {10.1007/BF01817753} {\bibfield  {journal} {\bibinfo
+  {journal} {Aequationes Math.},\ }\textbf {\bibinfo {volume} {4}},\ \bibinfo
+  {pages} {127} (\bibinfo {year} {1970})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lovelock}(1971)}]{Lovelock1971}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Lovelock}},\ }\Doi {10.1063/1.1665613} {\bibfield  {journal} {\bibinfo
+  {journal} {J.\ Math.\ Phys.},\ }\textbf {\bibinfo {volume} {12}},\ \bibinfo
+  {pages} {498} (\bibinfo {year} {1971})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lovelock}(1972)}]{Lovelock1972}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Lovelock}},\ }\Doi {10.1063/1.1666069} {\bibfield  {journal} {\bibinfo
+  {journal} {J.\ Math.\ Phys.},\ }\textbf {\bibinfo {volume} {13}},\ \bibinfo
+  {pages} {874} (\bibinfo {year} {1972})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sotiriou}\ and\ \citenamefont
+  {Liberati}(2007){\natexlab{a}}}]{Sotiriou2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Sotiriou}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Liberati}},\ }\Doi {10.1016/j.aop.2006.06.002} {\bibfield  {journal}
+  {\bibinfo  {journal} {Ann.\ Physics},\ }\textbf {\bibinfo {volume} {322}},\
+  \bibinfo {pages} {935} (\bibinfo {year} {2007}{\natexlab{a}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Sotiriou}\ and\ \citenamefont
+  {Liberati}(2007){\natexlab{b}}}]{Sotiriou2007b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~P.}\ \bibnamefont
+  {Sotiriou}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Liberati}},\ }\Doi {10.1088/1742-6596/68/1/012022} {\bibfield  {journal}
+  {\bibinfo  {journal} {J. Phys.: Conf. Ser.},\ }\textbf {\bibinfo {volume}
+  {68}},\ \bibinfo {pages} {012022} (\bibinfo {year}
+  {2007}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Barausse}\ \emph
+  {et~al.}(2008){\natexlab{a}}\citenamefont {Barausse}, \citenamefont
+  {Sotiriou},\ and\ \citenamefont {Miller}}]{Barausse2008b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Barausse}}, \bibinfo {author} {\bibfnamefont {T.~P.}\ \bibnamefont
+  {Sotiriou}}, \ and\ \bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
+  {Miller}},\ }\Doi {10.1088/0264-9381/25/6/062001} {\bibfield  {journal}
+  {\bibinfo  {journal} {Classical Quantum Gravity},\ }\textbf {\bibinfo
+  {volume} {25}},\ \bibinfo {pages} {062001} (\bibinfo {year}
+  {2008}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Barausse}\ \emph
+  {et~al.}(2008){\natexlab{b}}\citenamefont {Barausse}, \citenamefont
+  {Sotiriou},\ and\ \citenamefont {Miller}}]{Barausse2008a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Barausse}}, \bibinfo {author} {\bibfnamefont {T.~P.}\ \bibnamefont
+  {Sotiriou}}, \ and\ \bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
+  {Miller}},\ }\Doi {10.1088/0264-9381/25/10/105008} {\bibfield  {journal}
+  {\bibinfo  {journal} {Classical Quantum Gravity},\ }\textbf {\bibinfo
+  {volume} {25}},\ \bibinfo {pages} {105008} (\bibinfo {year}
+  {2008}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {York}(1972)}]{York1972}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont
+  {York}, \bibfnamefont {Jr.}},\ }\Doi {10.1103/PhysRevLett.28.1082} {\bibfield
+   {journal} {\bibinfo  {journal} {Phys.\ Rev.\ Lett.},\ }\textbf {\bibinfo
+  {volume} {28}},\ \bibinfo {pages} {1082} (\bibinfo {year}
+  {1972})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gibbons}\ and\ \citenamefont
+  {Hawking}(1977)}]{Gibbons1977}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~W.}\ \bibnamefont
+  {Gibbons}}\ and\ \bibinfo {author} {\bibfnamefont {S.~W.}\ \bibnamefont
+  {Hawking}},\ }\Doi {10.1103/PhysRevD.15.2752} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {15}},\ \bibinfo
+  {pages} {2752} (\bibinfo {year} {1977})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Madsen}\ and\ \citenamefont
+  {Barrow}(1989)}]{Madsen1989}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~S.}\ \bibnamefont
+  {Madsen}}\ and\ \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {Barrow}},\ }\Doi {10.1016/0550-3213(89)90596-8} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nucl.\ Phys.\ B},\ }\textbf {\bibinfo {volume} {323}},\
+  \bibinfo {pages} {242} (\bibinfo {year} {1989})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dyer}\ and\ \citenamefont
+  {Hinterbichler}(2009)}]{Dyer2009a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Dyer}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Hinterbichler}},\ }\Doi {10.1103/PhysRevD.79.024028} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {79}},\
+  \bibinfo {pages} {024028} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Guarnizo}\ \emph {et~al.}(2010)\citenamefont
+  {Guarnizo}, \citenamefont {Casta\~{n}eda},\ and\ \citenamefont
+  {Tejeiro}}]{Guarnizo2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Guarnizo}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Casta\~{n}eda}}, \ and\ \bibinfo {author} {\bibfnamefont {J.~M.}\
+  \bibnamefont {Tejeiro}},\ }\Doi {10.1007/s10714-010-1012-6} {\bibfield
+  {journal} {\bibinfo  {journal} {Gen.\ Relativity Gravitation},\ }\textbf
+  {\bibinfo {volume} {42}},\ \bibinfo {pages} {2713} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Koivisto}(2006)}]{Koivisto2006a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Koivisto}},\ }\Doi {10.1088/0264-9381/23/12/N01} {\bibfield  {journal}
+  {\bibinfo  {journal} {Classical Quantum Gravity},\ }\textbf {\bibinfo
+  {volume} {23}},\ \bibinfo {pages} {4289} (\bibinfo {year}
+  {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schmidt}(1986)}]{Schmidt1986}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.-J.}\ \bibnamefont
+  {Schmidt}},\ }\Doi {10.1002/asna.2113070526} {\bibfield  {journal} {\bibinfo
+  {journal} {Astron.\ Nachr.},\ }\textbf {\bibinfo {volume} {307}},\ \bibinfo
+  {pages} {339} (\bibinfo {year} {1986})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Teyssandier}(1990)}]{Teyssandier1990}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Teyssandier}},\ }\Doi {10.1002/asna.2113110402} {\bibfield  {journal}
+  {\bibinfo  {journal} {Astron.\ Nachr.},\ }\textbf {\bibinfo {volume} {311}},\
+  \bibinfo {pages} {209} (\bibinfo {year} {1990})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Olmo}(2005)}]{Olmo2005c}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~J.}\ \bibnamefont
+  {Olmo}},\ }\Doi {10.1103/PhysRevLett.95.261102} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ Lett.},\ }\textbf {\bibinfo {volume}
+  {95}},\ \bibinfo {pages} {261102} (\bibinfo {year} {2005})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Corda}(2007)}]{Corda2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Corda}},\ }\Doi {10.1142/S0217751X08038603} {\bibfield  {journal} {\bibinfo
+  {journal} {Internat.\ J.\ Modern Phys.\ A},\ }\textbf {\bibinfo {volume}
+  {23}},\ \bibinfo {pages} {1521} (\bibinfo {year} {2007})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hobson}\ \emph {et~al.}(2006)\citenamefont {Hobson},
+  \citenamefont {Efstathiou},\ and\ \citenamefont {Lasenby}}]{Hobson2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont
+  {Hobson}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Efstathiou}},
+  \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Lasenby}},\
+  }\href@noop {} {\emph {\bibinfo {title} {{General Relativity: An Introduction
+  for Physicists}}}}\ (\bibinfo  {publisher} {Cambridge University Press},\
+  \bibinfo {address} {Cambridge},\ \bibinfo {year} {2006})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Capozziello}\ \emph {et~al.}(2008)\citenamefont
+  {Capozziello}, \citenamefont {Corda},\ and\ \citenamefont {{De
+  Laurentis}}}]{Capozziello2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Capozziello}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Corda}},
+  \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{De Laurentis}}},\
+  }\Doi {10.1016/j.physletb.2008.10.001} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys.\ Lett.\ B},\ }\textbf {\bibinfo {volume} {669}},\ \bibinfo
+  {pages} {255} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Corda}(2009){\natexlab{a}}}]{Corda2009a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Corda}},\ }\Doi {10.1142/S0218271809015904} {\bibfield  {journal} {\bibinfo
+  {journal} {Internat.\ J.\ Modern Phys.\ D},\ }\textbf {\bibinfo {volume}
+  {18}},\ \bibinfo {pages} {2275} (\bibinfo {year}
+  {2009}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wald}(1984)}]{Wald1984}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont
+  {Wald}},\ }\href@noop {} {\emph {\bibinfo {title} {{General Relativity}}}}\
+  (\bibinfo  {publisher} {University Of Chicago Press},\ \bibinfo {address}
+  {Chicago},\ \bibinfo {year} {1984})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Peskin}\ and\ \citenamefont
+  {Schroeder}(1995)}]{Peskin1995a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~E.}\ \bibnamefont
+  {Peskin}}\ and\ \bibinfo {author} {\bibfnamefont {D.~V.}\ \bibnamefont
+  {Schroeder}},\ }\href@noop {} {\emph {\bibinfo {title} {{An Introduction to
+  Quantum Field Theory}}}}\ (\bibinfo  {publisher} {Westview Press},\ \bibinfo
+  {address} {Boulder, Colorado},\ \bibinfo {year} {1995})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Capozziello}\ \emph {et~al.}(2009)\citenamefont
+  {Capozziello}, \citenamefont {Stabile},\ and\ \citenamefont
+  {Troisi}}]{Capozziello2009a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Capozziello}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Stabile}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Troisi}},\ }\Doi {10.1142/S0217732309030382} {\bibfield  {journal} {\bibinfo
+   {journal} {Mod.\ Phys.\ Lett.\ A},\ }\textbf {\bibinfo {volume} {24}},\
+  \bibinfo {pages} {659} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {N\"{a}f}\ and\ \citenamefont
+  {Jetzer}(2010)}]{Naf2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {N\"{a}f}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Jetzer}},\ }\Doi {10.1103/PhysRevD.81.104003} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {81}},\
+  \bibinfo {pages} {104003} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chiba}\ \emph {et~al.}(2007)\citenamefont {Chiba},
+  \citenamefont {Smith},\ and\ \citenamefont {Erickcek}}]{Chiba2007a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Chiba}}, \bibinfo {author} {\bibfnamefont {T.~L.}\ \bibnamefont {Smith}}, \
+  and\ \bibinfo {author} {\bibfnamefont {A.~L.}\ \bibnamefont {Erickcek}},\
+  }\Doi {10.1103/PhysRevD.75.124014} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {75}},\ \bibinfo {pages}
+  {124014} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pechlaner}\ and\ \citenamefont
+  {Sexl}(1966)}]{Pechlaner1966}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Pechlaner}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Sexl}},\ }\Doi {10.1007/BF01773351} {\bibfield  {journal} {\bibinfo
+  {journal} {Comm.\ Math.\ Phys.},\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo
+  {pages} {165} (\bibinfo {year} {1966})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stelle}(1978)}]{Stelle1978}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
+  {Stelle}},\ }\Doi {10.1007/BF00760427} {\bibfield  {journal} {\bibinfo
+  {journal} {Gen.\ Relativity Gravitation},\ }\textbf {\bibinfo {volume} {9}},\
+  \bibinfo {pages} {353} (\bibinfo {year} {1978})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Clifton}(2006)}]{Clifton2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Clifton}},\ }\Doi {10.1088/0264-9381/23/24/015} {\bibfield  {journal}
+  {\bibinfo  {journal} {Classical Quantum Gravity},\ }\textbf {\bibinfo
+  {volume} {23}},\ \bibinfo {pages} {7445} (\bibinfo {year}
+  {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Capozziello}\ and\ \citenamefont
+  {Stabile}(2009)}]{Capozziello2009b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Capozziello}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Stabile}},\ }\Doi {10.1088/0264-9381/26/8/085019} {\bibfield  {journal}
+  {\bibinfo  {journal} {Classical Quantum Gravity},\ }\textbf {\bibinfo
+  {volume} {26}},\ \bibinfo {pages} {085019} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stabile}(2010)}]{Stabile2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Stabile}},\ }\Doi {10.1103/PhysRevD.82.064021} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {82}},\
+  \bibinfo {pages} {064021(12)} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Olmo}(2007)}]{Olmo2007c}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~J.}\ \bibnamefont
+  {Olmo}},\ }\Doi {10.1103/PhysRevD.75.023511} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {75}},\ \bibinfo
+  {pages} {023511} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hawking}(1972){\natexlab{b}}}]{Hawking1972a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~W.}\ \bibnamefont
+  {Hawking}},\ }\Doi {10.1007/BF01877518} {\bibfield  {journal} {\bibinfo
+  {journal} {Comm.\ Math.\ Phys.},\ }\textbf {\bibinfo {volume} {25}},\
+  \bibinfo {pages} {167} (\bibinfo {year} {1972}{\natexlab{b}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Bekenstein}\ and\ \citenamefont
+  {Meisels}(1978)}]{Bekenstein1978}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {Bekenstein}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Meisels}},\ }\Doi {10.1103/PhysRevD.18.4378} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {18}},\ \bibinfo
+  {pages} {4378} (\bibinfo {year} {1978})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Thorne}\ and\ \citenamefont
+  {Dykla}(1971)}]{Thorne1971}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
+  {Thorne}}\ and\ \bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont
+  {Dykla}},\ }\Doi {10.1086/180734} {\bibfield  {journal} {\bibinfo  {journal}
+  {Astrophys.\ J.},\ }\textbf {\bibinfo {volume} {166}},\ \bibinfo {pages}
+  {L35} (\bibinfo {year} {1971})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Scheel}\ \emph {et~al.}(1995)\citenamefont {Scheel},
+  \citenamefont {Shapiro},\ and\ \citenamefont {Teukolsky}}]{Scheel1995}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {Scheel}}, \bibinfo {author} {\bibfnamefont {S.~L.}\ \bibnamefont {Shapiro}},
+  \ and\ \bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont {Teukolsky}},\
+  }\Doi {10.1103/PhysRevD.51.4236} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {51}},\ \bibinfo {pages}
+  {4236} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Binney}\ and\ \citenamefont
+  {Tremaine}(1987)}]{Binney1987}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Binney}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Tremaine}},\ }\href@noop {} {\emph {\bibinfo {title} {{Galactic
+  Dynamics}}}},\ \bibinfo {edition} {1st}\ ed.\ (\bibinfo  {publisher}
+  {Princeton University Press},\ \bibinfo {address} {Princeton},\ \bibinfo
+  {year} {1987})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Detweiler}(2008)}]{Detweiler2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Detweiler}},\ }\Doi {10.1103/PhysRevD.77.124026} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {77}},\
+  \bibinfo {pages} {124026} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Teyssandier}\ and\ \citenamefont
+  {Tourrenc}(1983)}]{Teyssandier1983}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Teyssandier}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Tourrenc}},\ }\Doi {10.1063/1.525659} {\bibfield  {journal} {\bibinfo
+  {journal} {J.\ Math.\ Phys.},\ }\textbf {\bibinfo {volume} {24}},\ \bibinfo
+  {pages} {2793} (\bibinfo {year} {1983})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wands}(1994)}]{Wands1994}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Wands}},\ }\Doi {http://dx.doi.org/10.1088/0264-9381/11/1/025} {\bibfield
+  {journal} {\bibinfo  {journal} {Classical Quantum Gravity},\ }\textbf
+  {\bibinfo {volume} {11}},\ \bibinfo {pages} {269} (\bibinfo {year}
+  {1994})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bisabr}(2010)}]{Bisabr2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Bisabr}},\ }\Doi {10.1134/S0202289310030084} {\bibfield  {journal} {\bibinfo
+   {journal} {Gravit.\ Cosmol.},\ }\textbf {\bibinfo {volume} {16}},\ \bibinfo
+  {pages} {239} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kerner}\ \emph {et~al.}(2001)\citenamefont {Kerner},
+  \citenamefont {van Holten},\ and\ \citenamefont {Colistete}}]{Kerner2001a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Kerner}}, \bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont {van
+  Holten}}, \ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Colistete}, \bibfnamefont {R.}},\ }\Doi {10.1088/0264-9381/18/22/302}
+  {\bibfield  {journal} {\bibinfo  {journal} {Classical Quantum Gravity},\
+  }\textbf {\bibinfo {volume} {18}},\ \bibinfo {pages} {4725} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cox}(2000)}]{Cox2000}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~N.}\ \bibnamefont
+  {Cox}},\ }\href@noop {} {\emph {\bibinfo {title} {{Allen's Astrophysical
+  Quantities}}}},\ \bibinfo {edition} {4th}\ ed.\ (\bibinfo  {publisher}
+  {Springer-Verlag},\ \bibinfo {address} {New York},\ \bibinfo {year}
+  {2000})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pitjeva}(2009)}]{Pitjeva2009a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~V.}\ \bibnamefont
+  {Pitjeva}},\ }in\ \Doi {10.1017/S1743921309990342} {\emph {\bibinfo
+  {booktitle} {Proceedings of the International Astronomical Union}}},\
+  Vol.~\bibinfo {volume} {5},\ \bibinfo {editor} {edited by\ \bibinfo {editor}
+  {\bibfnamefont {S.~A.}\ \bibnamefont {Klioner}}, \bibinfo {editor}
+  {\bibfnamefont {P.~K.}\ \bibnamefont {Seidelmann}}, \ and\ \bibinfo {editor}
+  {\bibfnamefont {M.~H.}\ \bibnamefont {Soffel}}}\ (\bibinfo  {publisher}
+  {Cambridge University Press},\ \bibinfo {address} {Cambridge},\ \bibinfo
+  {year} {2009})\ pp.\ \bibinfo {pages} {170--178}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kapner}\ \emph {et~al.}(2007)\citenamefont {Kapner},
+  \citenamefont {Cook}, \citenamefont {Adelberger}, \citenamefont {Gundlach},
+  \citenamefont {Heckel}, \citenamefont {Hoyle},\ and\ \citenamefont
+  {Swanson}}]{Kapner2007a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Kapner}}, \bibinfo {author} {\bibfnamefont {T.~S.}\ \bibnamefont {Cook}},
+  \bibinfo {author} {\bibfnamefont {E.~G.}\ \bibnamefont {Adelberger}},
+  \bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont {Gundlach}}, \bibinfo
+  {author} {\bibfnamefont {B.~R.}\ \bibnamefont {Heckel}}, \bibinfo {author}
+  {\bibfnamefont {C.~D.}\ \bibnamefont {Hoyle}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {H.~E.}\ \bibnamefont {Swanson}},\ }\Doi
+  {10.1103/PhysRevLett.98.021101} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys.\ Rev.\ Lett.},\ }\textbf {\bibinfo {volume} {98}},\ \bibinfo {pages}
+  {021101} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hoyle}\ \emph {et~al.}(2004)\citenamefont {Hoyle},
+  \citenamefont {Kapner}, \citenamefont {Heckel}, \citenamefont {Adelberger},
+  \citenamefont {Gundlach}, \citenamefont {Schmidt},\ and\ \citenamefont
+  {Swanson}}]{Hoyle2004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~D.}\ \bibnamefont
+  {Hoyle}}, \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont {Kapner}},
+  \bibinfo {author} {\bibfnamefont {B.~R.}\ \bibnamefont {Heckel}}, \bibinfo
+  {author} {\bibfnamefont {E.~G.}\ \bibnamefont {Adelberger}}, \bibinfo
+  {author} {\bibfnamefont {J.~H.}\ \bibnamefont {Gundlach}}, \bibinfo {author}
+  {\bibfnamefont {U.}~\bibnamefont {Schmidt}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {H.~E.}\ \bibnamefont {Swanson}},\ }\Doi
+  {10.1103/PhysRevD.70.042004} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {70}},\ \bibinfo {pages}
+  {042004} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Khoury}\ and\ \citenamefont
+  {Weltman}(2004){\natexlab{a}}}]{Khoury2004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Khoury}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Weltman}},\ }\Doi {10.1103/PhysRevLett.93.171104} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ Lett.},\ }\textbf {\bibinfo {volume}
+  {93}},\ \bibinfo {pages} {171104} (\bibinfo {year}
+  {2004}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Khoury}\ and\ \citenamefont
+  {Weltman}(2004){\natexlab{b}}}]{Khoury2004a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Khoury}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Weltman}},\ }\Doi {10.1103/PhysRevD.69.044026} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {69}},\
+  \bibinfo {pages} {044026} (\bibinfo {year} {2004}{\natexlab{b}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Brax}\ \emph {et~al.}(2004)\citenamefont {Brax},
+  \citenamefont {{{van de Bruck}}}, \citenamefont {Davis}, \citenamefont
+  {Khoury},\ and\ \citenamefont {Weltman}}]{Brax2004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Brax}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {{{van de
+  Bruck}}}}, \bibinfo {author} {\bibfnamefont {A.-C.}\ \bibnamefont {Davis}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Khoury}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Weltman}},\ }\Doi
+  {10.1103/PhysRevD.70.123518} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {70}},\ \bibinfo {pages}
+  {123518} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Li}\ and\ \citenamefont {Barrow}(2007)}]{Li2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Li}}\ and\ \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {Barrow}},\ }\Doi {10.1103/PhysRevD.75.084010} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {75}},\
+  \bibinfo {pages} {084010} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Corda}(2009){\natexlab{b}}}]{Corda2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Corda}},\ }\Doi {10.1140/epjc/s10052-009-1100-5} {\bibfield  {journal}
+  {\bibinfo  {journal} {Eur.\ Phys.\ J.\ C},\ }\textbf {\bibinfo {volume}
+  {65}},\ \bibinfo {pages} {257} (\bibinfo {year}
+  {2009}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Butcher}\ \emph {et~al.}(2010)\citenamefont
+  {Butcher}, \citenamefont {Hobson},\ and\ \citenamefont
+  {Lasenby}}]{Butcher2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~M.}\ \bibnamefont
+  {Butcher}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Hobson}}, \
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Lasenby}},\ }\Doi
+  {10.1103/PhysRevD.82.104040} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {82}},\ \bibinfo {pages}
+  {104040} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Komatsu}\ \emph {et~al.}(2011)\citenamefont
+  {Komatsu}, \citenamefont {Smith}, \citenamefont {Dunkley}, \citenamefont
+  {Bennett}, \citenamefont {Gold}, \citenamefont {Hinshaw}, \citenamefont
+  {Jarosik}, \citenamefont {Larson}, \citenamefont {Nolta}, \citenamefont
+  {Page}, \citenamefont {Spergel}, \citenamefont {Halpern}, \citenamefont
+  {Hill}, \citenamefont {Kogut}, \citenamefont {Limon}, \citenamefont {Meyer},
+  \citenamefont {Odegard}, \citenamefont {Tucker}, \citenamefont {Weiland},
+  \citenamefont {Wollack},\ and\ \citenamefont {Wright}}]{Komatsu2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Komatsu}}, \bibinfo {author} {\bibfnamefont {K.~M.}\ \bibnamefont {Smith}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Dunkley}}, \bibinfo
+  {author} {\bibfnamefont {C.~L.}\ \bibnamefont {Bennett}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Gold}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Hinshaw}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {Jarosik}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Larson}}, \bibinfo {author} {\bibfnamefont {M.~R.}\
+  \bibnamefont {Nolta}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Page}}, \bibinfo {author} {\bibfnamefont {D.~N.}\ \bibnamefont {Spergel}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Halpern}}, \bibinfo
+  {author} {\bibfnamefont {R.~S.}\ \bibnamefont {Hill}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Kogut}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Limon}}, \bibinfo {author} {\bibfnamefont {S.~S.}\
+  \bibnamefont {Meyer}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Odegard}}, \bibinfo {author} {\bibfnamefont {G.~S.}\ \bibnamefont {Tucker}},
+  \bibinfo {author} {\bibfnamefont {J.~L.}\ \bibnamefont {Weiland}}, \bibinfo
+  {author} {\bibfnamefont {E.}~\bibnamefont {Wollack}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {E.~L.}\ \bibnamefont {Wright}},\ }\Doi
+  {10.1088/0067-0049/192/2/18} {\bibfield  {journal} {\bibinfo  {journal}
+  {Astrophys.\ J.\ Suppl.\ Ser.},\ }\textbf {\bibinfo {volume} {192}},\
+  \bibinfo {pages} {18} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\end{thebibliography}%
