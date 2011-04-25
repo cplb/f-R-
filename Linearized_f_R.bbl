@@ -402,7 +402,7 @@
   {NoStop}%
 \bibitem [{\citenamefont {Robinson}(1975)}]{Robinson1975}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~C.}\ \bibnamefont
   {Robinson}},\ }\Doi {10.1103/PhysRevLett.34.905} {\bibfield  {journal}
   {\bibinfo  {journal} {Phys.\ Rev.\ Lett.},\ }\textbf {\bibinfo {volume}
   {34}},\ \bibinfo {pages} {905} (\bibinfo {year} {1975})}\BibitemShut
@@ -902,10 +902,10 @@
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
   {Capozziello}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Corda}},
-  \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {{De Laurentis}}},\
-  }\Doi {10.1016/j.physletb.2008.10.001} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys.\ Lett.\ B},\ }\textbf {\bibinfo {volume} {669}},\ \bibinfo
-  {pages} {255} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+  \ and\ \bibinfo {author} {\bibfnamefont {M.~F.}\ \bibnamefont {{De
+  Laurentis}}},\ }\Doi {10.1016/j.physletb.2008.10.001} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys.\ Lett.\ B},\ }\textbf {\bibinfo {volume} {669}},\
+  \bibinfo {pages} {255} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Corda}(2009){\natexlab{a}}}]{Corda2009a}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
@@ -989,7 +989,7 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
   {Stabile}},\ }\Doi {10.1103/PhysRevD.82.064021} {\bibfield  {journal}
   {\bibinfo  {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {82}},\
-  \bibinfo {pages} {064021(12)} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+  \bibinfo {pages} {064021} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Olmo}(2007)}]{Olmo2007c}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~J.}\ \bibnamefont
@@ -1047,10 +1047,11 @@
   {Tourrenc}(1983)}]{Teyssandier1983}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
-  {Teyssandier}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
-  {Tourrenc}},\ }\Doi {10.1063/1.525659} {\bibfield  {journal} {\bibinfo
-  {journal} {J.\ Math.\ Phys.},\ }\textbf {\bibinfo {volume} {24}},\ \bibinfo
-  {pages} {2793} (\bibinfo {year} {1983})}\BibitemShut {NoStop}%
+  {Teyssandier}}\ and\ \bibinfo {author} {\bibfnamefont {{\relax
+  Ph}.}~\bibnamefont {Tourrenc}},\ }\Doi {10.1063/1.525659} {\bibfield
+  {journal} {\bibinfo  {journal} {J.\ Math.\ Phys.},\ }\textbf {\bibinfo
+  {volume} {24}},\ \bibinfo {pages} {2793} (\bibinfo {year}
+  {1983})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Wands}(1994)}]{Wands1994}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
@@ -1069,8 +1070,8 @@
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
   {Kerner}}, \bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont {van
-  Holten}}, \ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Colistete}, \bibfnamefont {R.}},\ }\Doi {10.1088/0264-9381/18/22/302}
+  Holten}}, \ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Colistete}, \bibfnamefont {Jr.}},\ }\Doi {10.1088/0264-9381/18/22/302}
   {\bibfield  {journal} {\bibinfo  {journal} {Classical Quantum Gravity},\
   }\textbf {\bibinfo {volume} {18}},\ \bibinfo {pages} {4725} (\bibinfo {year}
   {2001})}\BibitemShut {NoStop}%
