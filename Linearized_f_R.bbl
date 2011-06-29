@@ -477,9 +477,14 @@
   {10.1103/PhysRevLett.100.091101} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys.\ Rev.\ Lett.},\ }\textbf {\bibinfo {volume} {100}},\ \bibinfo {pages}
   {091101} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
-\bibitem [{Yun()}]{Yunes2011}%
+\bibitem [{\citenamefont {Yunes}\ and\ \citenamefont
+  {Stein}(2011)}]{Yunes2011}%
   \BibitemOpen
-  \href@noop {} {}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Yunes}}\ and\ \bibinfo {author} {\bibfnamefont {L.~C.}\ \bibnamefont
+  {Stein}},\ }\Doi {10.1103/PhysRevD.83.104002} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys.\ Rev.\ D},\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo
+  {pages} {104002} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Barausse}\ and\ \citenamefont
   {Sotiriou}(2008)}]{Barausse2008}%
   \BibitemOpen
